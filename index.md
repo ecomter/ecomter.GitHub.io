@@ -4,6 +4,8 @@
 
 ## 测试（内容不重要）
 
+![Easycomputer Logo](/pic/IMG_20220519_231827.jpg)
+
 *WinUI is a user interface layer that contains modern controls and styles for building Windows apps. As the native UI layer in Windows it embodies Fluent Design, giving each Windows app the polished feel that customers expect.*
 
 WinUI 2 is a library of controls that provides official native Microsoft UI controls and features for Windows UWP apps. WinUI 2 can be used in any Windows 10 UWP XAML app, or in a Xamarin.Forms app running on Windows 10 using native view embedding.
