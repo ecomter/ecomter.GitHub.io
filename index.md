@@ -1,8 +1,23 @@
 ## Easy Computer Home
-
 ![Easycomputer Logo](/pic/IMG_20220519_231827.jpg)
-**欢迎来到 easy computer 的博客！**
+**   欢迎来到 easy computer 的博客！**    
 *（目前能力有限，就用GitHub建站了）*
+### 计划及目标
+- 教育类
+- Windows进化史（很快安排）
+- 个人开发的软件
+#### 教育类
+大概就是编程语言教学吧
+#### Windows进化史
+
+迄今为止最全的Windows进化资料 ***即将上线****
+
+####个人开发的软件
+hmmmmmmmm
+
+### 关于
+
+Easycomputer是一个电脑爱好者。
 
 ## 测试（内容不重要）
 
@@ -12,10 +27,9 @@ WinUI 2 is a library of controls that provides official native Microsoft UI cont
 
 ***WinUI 3 is the next generation of the WinUI framework. It dramatically expands WinUI into a full UX framework, making WinUI available for all types of Windows apps – from Win32 to UWP – for use as the UI layer***
 
-### 测试链接
 
+## 测试链接
+###### Microsoft and GitHub
 [Microsoft微软](https:\\www.Microsoft.com).
+[GitHub](www.GitHub.com)
 
-### 关于
-
-什么也没有...啦啦啦啦
