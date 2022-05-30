@@ -1,10 +1,10 @@
-## 欢迎来到easy computer的小站
-
-这里.....什么也没有
-
-## 测试（内容不重要）
+## Easy Computer Home
 
 ![Easycomputer Logo](/pic/IMG_20220519_231827.jpg)
+**欢迎来到 easy computer 的博客！**
+*（目前能力有限，就用GitHub建站了）*
+
+## 测试（内容不重要）
 
 *WinUI is a user interface layer that contains modern controls and styles for building Windows apps. As the native UI layer in Windows it embodies Fluent Design, giving each Windows app the polished feel that customers expect.*
 
