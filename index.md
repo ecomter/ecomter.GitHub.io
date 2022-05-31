@@ -1,6 +1,7 @@
 ## Easy Computer Home
 ![Easycomputer Logo](/pic/IMG_20220519_231827.jpg)
-**   欢迎来到 easy computer 的博客！**    
+       
+**欢迎来到 easy computer 的博客！**    
 *（目前能力有限，就用GitHub建站了）*
 ### 计划及目标
 - 教育类
@@ -10,9 +11,9 @@
 大概就是编程语言教学吧
 #### Windows进化史
 
-迄今为止最全的Windows进化资料 ***即将上线****
+迄今为止最全的Windows进化资料 ***即将上线***
 
-####个人开发的软件
+#### 个人开发的软件
 hmmmmmmmm
 
 ### 关于
@@ -30,6 +31,8 @@ WinUI 2 is a library of controls that provides official native Microsoft UI cont
 
 ## 测试链接
 ###### Microsoft and GitHub
-[Microsoft微软](https:\\www.Microsoft.com).
+[Microsoft](https:\\www.Microsoft.com)   
 [GitHub](www.GitHub.com)
-
+###### Bing
+[Bing](global.bing.com)   
+[Bing China](cn.bing.com)
