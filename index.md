@@ -1,12 +1,24 @@
+<nav>
+           <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">博客</a></li>
+                <li><a href="#">计划</a></li>
+                <li><a href="#">关于</a></li>
+            </ul>
+        </nav>
+
+
 ## Easy Computer Home
 ![Easycomputer Logo](/pic/IMG_20220519_231827.jpg)
        
 **欢迎来到 easy computer 的博客！**    
 *（目前能力有限，就用GitHub建站了）*
+##最近更新
+
 ### 计划及目标
-- 教育类
-- Windows进化史（很快安排）
-- 个人开发的软件
+- [ ] 教育类
+- [x] Windows进化史（很快安排）
+- [ ] 个人开发的软件
 #### 教育类
 大概就是编程语言教学吧
 #### Windows进化史
