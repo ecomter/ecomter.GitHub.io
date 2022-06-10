@@ -22,13 +22,13 @@
             
 
 ## Easy Computer Home
-![Easycomputer Logo]()/pic/IMG_20220519_231827.jpg
+![Easycomputer Logo](/pic/IMG_20220519_231827.jpg)
        
 **欢迎来到 easy computer 的博客！**    
 *（目前能力有限，就用GitHub建站了）*
 
 ## 最近更新
-
+ 
 ### 计划及目标
 - [ ] 教育类
 - [x] Windows进化史（很快安排）
