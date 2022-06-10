@@ -1,10 +1,33 @@
+<head>
+    <link rel="stylesheet" type="css" href="web.css">
+</head>
+<div class="top-bar">
+    <div class="box-top">
+        <ul class="top-ui">
+            <li>
+                <a href="/"><img src="/pic/IMG_20220519_231827.jpg"></a>
+            </li>
+            <li>
+                <a href="#">首页</a>
+            </li>
+            <li>
+                <a href="#">博客</a>
+            </li>
+            <li>
+                <a href="#">关于</a>
+            </li>
+        </ul>
+    </div>
+</div>
+            
+
 ## Easy Computer Home
-![Easycomputer Logo](/pic/IMG_20220519_231827.jpg)
+![Easycomputer Logo]()/pic/IMG_20220519_231827.jpg
        
 **欢迎来到 easy computer 的博客！**    
 *（目前能力有限，就用GitHub建站了）*
-*端午节快乐！*
-##最近更新
+
+## 最近更新
 
 ### 计划及目标
 - [ ] 教育类
