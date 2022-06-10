@@ -38,3 +38,5 @@ WinUI 2 is a library of controls that provides official native Microsoft UI cont
 ###### Bing
 [Bing](https:\\global.bing.com)   
 [Bing China](https:\\cn.bing.com)
+
+<h5 align="center">Copyright EasyComputer 2022</h5>
