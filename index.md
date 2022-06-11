@@ -6,7 +6,7 @@
 *（目前能力有限，就用GitHub建站了）*
 
 ## 最近更新
-[初步Windows进化史](https:\\easycomputer1.github.io/WindowsHistory/Chapter1-EarlyHistory/)
+[初步Windows进化史](https://easycomputer1.github.io/WindowsHistory/Chapter1-EarlyHistory/)
 ### 计划及目标
 - [ ] 教育类
 - [x] Windows进化史（很快安排）
