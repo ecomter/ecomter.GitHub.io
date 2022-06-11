@@ -1,25 +1,3 @@
-<head>
-    <link rel="stylesheet" type="css" href="web.css">
-</head>
-<div class="top-bar">
-    <div class="box-top">
-        <ul class="top-ui">
-            <li>
-                <a href="/"><img src="/pic/IMG_20220519_231827.jpg"></a>
-            </li>
-            <li>
-                <a href="#">首页</a>
-            </li>
-            <li>
-                <a href="#">博客</a>
-            </li>
-            <li>
-                <a href="#">关于</a>
-            </li>
-        </ul>
-    </div>
-</div>
-            
 
 ## Easy Computer Home
 ![Easycomputer Logo](/pic/IMG_20220519_231827.jpg)
