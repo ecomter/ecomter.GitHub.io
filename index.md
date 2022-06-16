@@ -30,12 +30,13 @@ li a.active {
   background-color: #4CAF50;
 }
 </style>
-<ul>
+
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
-</ul>
+  
+
 ## Easy Computer Home
 ![Easycomputer Logo](/pic/IMG_20220519_231827.jpg)
        
