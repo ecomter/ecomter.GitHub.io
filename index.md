@@ -36,6 +36,7 @@ li a.active {
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
   
+                                            。
 
 ## Easy Computer Home
 ![Easycomputer Logo](/pic/IMG_20220519_231827.jpg)
