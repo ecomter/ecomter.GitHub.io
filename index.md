@@ -1,3 +1,7 @@
+<head>
+<link rel="stylesheet" type="css" href="/css/web.css">
+</head>
+
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#contact">Contact</a></li>
