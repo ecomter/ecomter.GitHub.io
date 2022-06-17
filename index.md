@@ -1,5 +1,5 @@
 <head>
-<link rel="stylesheet" type="css" href="/css/web.css">
+<link rel="stylesheet" type="css/" href="web.css">
 </head>
 
   <li><a class="active" href="#home">Home</a></li>
