@@ -1,12 +1,15 @@
 .a {
     font-family: "google sans";
 }
+body {
+  background-color: #fafafa;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #808080;
+  background-color: #ffffff;
   border-radius: 20px;
 }
 
