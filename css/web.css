@@ -11,8 +11,9 @@ ul {
   overflow: hidden;
   background-color: #ffffff;
   border-radius: 20px;
-  position: fixed;
+  position: sticky;
   top: 0px;
+  width: 100%;
 }
 
 li {
