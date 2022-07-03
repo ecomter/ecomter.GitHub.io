@@ -14,12 +14,14 @@ ul {
   position: sticky;
   top: 0px;
   width: 100%;
+  text-align:center;
 }
 .Pagefoot {
-  border-top-color: #000；
+  border-top-color: #000;
   border-radius: 10px;
-  background-color: #808080;
-  color: white;
+  background-color: #f0e0e0;
+  color: rgb(0, 0, 0);
+  text-align:center;
 }
 li {
   float: left;
