@@ -16,19 +16,7 @@ ul {
   width: 100%;
   text-align:center;
 }
-.BlogResult {
-  border-radius: 10px;
-  opacity: 0.5;
-  background-color: white;
-  color: rgb(0, 0, 0);
-.Pagefoot {
-  border-top-color: #000;
-  opacity: 0.5;
-  border-radius: 10px;
-  background-color: #f0e0e0;
-  color: rgb(0, 0, 0);
-  text-align:center;
-}
+
 li {
   float: left;
 }
@@ -50,4 +38,17 @@ a:hover:not(.active) {
 .active {
   background-color:#76bbff;
   border-radius: 20px;
+}
+.BlogResult {
+  border-radius: 10px;
+  opacity: 0.5;
+  background-color: white;
+  color: rgb(0, 0, 0);
+.Pagefoot {
+  border-top-color: #000;
+  opacity: 0.5;
+  border-radius: 10px;
+  background-color: #f0e0e0;
+  color: rgb(0, 0, 0);
+  text-align:center;
 }
