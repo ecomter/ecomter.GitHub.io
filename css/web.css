@@ -2,10 +2,7 @@
     font-family: "google sans";
 }
 body {
-  /* background-color: #fafafa; */
-  background: "../pic/BingWallpaper (3).jpg" no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #fafafa;
 }
 ul {
   list-style-type: none;
