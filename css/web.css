@@ -3,7 +3,7 @@
 }
 body {
   /* background-color: #fafafa; */
-  background: url(../pic/BingWallpaper (3).jpg) no-repeat center center;
+  background: "../pic/BingWallpaper (3).jpg" no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 }
