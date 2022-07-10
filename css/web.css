@@ -62,9 +62,8 @@ a:hover:not(.active) {
   color: rgb(0, 0, 0);
 }
 .Pagefoot {
-  border-style: outset;
-  border-color: #f0e0e0;
-  background-color: #f0e0e0;
+  background-color: black;
   color: rgb(0, 0, 0);
   text-align:center;
+  border-radius: 20px
 }
