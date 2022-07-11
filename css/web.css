@@ -57,12 +57,12 @@ a:hover:not(.active) {
   border-radius: 20px;
 }
 .BlogResult {
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: white;
   color: rgb(0, 0, 0);
 }
 .Pagefoot {
-  background-color: black;
+  background-color: white;
   color: rgb(0, 0, 0);
   text-align:center;
   border-radius: 20px
