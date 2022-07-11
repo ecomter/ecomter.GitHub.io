@@ -48,7 +48,7 @@ li a {
 }
 
 a:hover:not(.active) {
-  background-color: #111;
+  background-color: #14fff2;
   border-radius: 20px;
 }
 
@@ -69,4 +69,12 @@ a:hover:not(.active) {
   text-align:center;
   text-decoration: none;
   border-radius: 20px
+}
+p a:link{
+  color:#14fff2;
+  text-decoration: none;
+}
+p a:visited {
+  color:#14fff2;
+  text-decoration: none;
 }
