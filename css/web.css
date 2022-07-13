@@ -1,9 +1,9 @@
 * {
-    font-family: "microsoft yahei";
+    font-family: "Microsoft Yahei";
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 p {
     display: block;
@@ -68,13 +68,23 @@ a:hover:not(.active) {
   color: rgb(0, 0, 0);
   text-align:center;
   text-decoration: none;
-  border-radius: 20px
+  border-radius: 20px;
+  padding: 10px;
 }
-p a:link{
+p a:link,.Pagefoot a:link,h4 a:link,p a:visited,div a:visited,h4 a:visited{
   color:blue;
   text-decoration: none;
 }
-p a:visited { 
-  color:blue;
+.bottom a:link{
   text-decoration: none;
+  color:white;
+}
+.bottom {
+  background-color: rgb(60, 163, 248);
+  color: white;
+  display: block;
+  border-radius: 15px;
+  text-align:center;
+  padding: 10px 10px;
+  float: left;
 }
