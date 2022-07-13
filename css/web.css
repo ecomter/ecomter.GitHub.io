@@ -75,7 +75,7 @@ p a:link,.Pagefoot a:link,h4 a:link,p a:visited,div a:visited,h4 a:visited{
   color:blue;
   text-decoration: none;
 }
-.bottom a:link{
+.bottom a:link,.bottom a:visited{
   text-decoration: none;
   color:white;
 }
