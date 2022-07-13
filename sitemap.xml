@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Created By http://www.zhetao.com/sitemapcreator,  URLs: 11 Generated at: 2022-07-13 17:00:45 -->
+
+  <url>
+    <loc>https://easycomputer1.github.io/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://easycomputer1.github.io/blog</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://easycomputer1.github.io/downloadcenter</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://easycomputer1.github.io/about</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://easycomputer1.github.io/blog/History1-1.html</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://easycomputer1.github.io/blog/History1-2.html</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://easycomputer1.github.io/blog/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://easycomputer1.github.io/downloadcenter/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://easycomputer1.github.io/downloadcenter/dism++/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://easycomputer1.github.io/downloadcenter/edgeless/</loc>
+    <priority>0.76</priority>
+  </url>
+
+  <url>
+    <loc>https://easycomputer1.github.io/downloadcenter/PCManager/</loc>
+    <priority>0.72</priority>
+  </url>
+
+</urlset>
