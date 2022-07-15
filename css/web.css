@@ -1,5 +1,5 @@
 * {
-    font-family: "Microsoft Yahei";
+    font-family: "Microsoft YaHei UI";
 }
 
 body {
@@ -75,16 +75,40 @@ p a:link,.Pagefoot a:link,h4 a:link,p a:visited,div a:visited,h4 a:visited{
   color:blue;
   text-decoration: none;
 }
-.bottom a:link,.bottom a:visited{
+.button a:link,.button a:visited{
   text-decoration: none;
   color:white;
 }
-.bottom {
-  background-color: rgb(60, 163, 248);
-  color: white;
-  display: block;
-  border-radius: 15px;
-  text-align:center;
-  padding: 10px 10px;
-  float: left;
+.button {
+    background-color: #4CAF50;
+    color: white;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    font-size:16px;
+    padding: 15px 32px;
+    float: left;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.button.after{
+    content:" ";
+    display:block;
+    position:absolute;
+    padding-top:300%;
+    padding-left:350%;
+    margin-left:-20px!important;
+    margin-top:-120%;
+    opacity:0;
+    transition:all 0.8s;
+}
+.button:active:after {
+    padding:0;
+    margin:0;
+    opacity:1;
+    transition:0s;
 }
