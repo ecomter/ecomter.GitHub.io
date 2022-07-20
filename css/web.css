@@ -1,9 +1,7 @@
-* {
-    font-family: "Microsoft YaHei UI";
-}
-
 body {
   background-color: #fafffa;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: Microsoft YaHei UI;
 }
 p {
     display: block;
