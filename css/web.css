@@ -73,6 +73,32 @@ a:hover:not(.active) {
   border-radius: 20px;
   padding: 10px;
 }
+
+.top{
+	width: 50px;
+	height: 100px;
+	background-color: rgba(0,0,255,0.5);
+	border-radius: 10px;
+	position: fixed;
+	right: 100px;
+	bottom: 40%;
+}
+
+.top #topArrow{
+	width: 30px;
+	height: 30px;
+	border-top: 2px solid #fff;//利用border和rotate绘制向上的箭头
+	border-left: 2px solid #fff;
+	display: inline-block;
+	transform: translate(9px,35px) rotate(45deg);
+	cursor: pointer;
+	z-index: 1000;//避免被其他div遮盖
+}
+
+.top #topArrow:hover{
+	border-width: 4px;
+}
+
 p a:link,.Pagefoot a:link,h4 a:link,p a:visited,div a:visited,h4 a:visited{
   color:blue;
   text-decoration: none;
