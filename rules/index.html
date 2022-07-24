@@ -10,14 +10,30 @@
 <link href='http://fonts.font.im/css?family=Noto+Sans:400,700&subset=latin,greek' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="../css/web.css">
 
+<script type="text/javascript">
+var topArrow=document.getElementById('topArrow');
+var menu=document.getElementById('menu');
+topArrow.οnclick=function(){
+	var h=menu.offsetTop;
+	document.body.scrollTop=h;
+}
+</script>
+
 </head>
 
 <body>
-  <ul>
+<ul>
   <li><a class="active" href="../rules">群规</a></li>
   <li><a href="../">转到EasyComputer的博客</a></li>
 </ul>
+
+<div class="top">
+	<span title="Top" id="topArrow"></span>
+</div>
+
 <h2>“Windows易技术交流与探讨”群的基本规则和制度</h2>
+
+<div id="menu">
 <h3>导航</h3>
 <h4><a href="#first">先决条件</a></h4>
 <h4><a href="#main">性质</a></h4>
@@ -25,6 +41,8 @@
 <h4><a href="#manage">处罚方法</a></h4>
 <h4><a href="#other">其他事宜</a></h4>
 <h4><a href="#relative">您与我们</a></h4>
+</div>
+
 <div id="first">
 <h3>先决条件</h3>
 感谢加入 “Windows 易技术交流与探讨” 群聊<B>（QQ群号：798712490）</B><br>
