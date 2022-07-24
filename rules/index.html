@@ -10,27 +10,6 @@
 <link href='http://fonts.font.im/css?family=Noto+Sans:400,700&subset=latin,greek' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="../css/web.css">
 
-<script type="text/javascript">
-var backToTop = function (rate) {
-    var doc = document.body.scrollTop? document.body : document.documentElement;
-    var scrollTop = doc.scrollTop;
-    
-    var top = function () {
-        scrollTop = scrollTop + (0 - scrollTop) / (rate || 4);
-        
-        // 临界判断，终止动画
-        if (scrollTop <= 1) {
-            doc.scrollTop = 0;
-            return;
-        }
-        doc.scrollTop = scrollTop;
-        // 动画gogogo!
-        requestAnimationFrame(top);    
-    };
-    top();
-};
-</script>
-
 </head>
 
 <body>
@@ -68,22 +47,36 @@ var backToTop = function (rate) {
 <div id="message">
 <h3>发言内容</h3>
 <h4>请广大群友发言时注意自己言论，详细规定如下</h4>
-<h5>1.原则性问题</h5>
+<h4 id="mainquestion">1.原则性问题</h4>
 请大家发言时遵守我国法律，<b>禁止</b>发布色情，赌博，非法交易，诋毁政府，政治敏感，国际通信，攻击、谩骂他人或集体等非法的言论<br>
-<h5>2.道德观念问题</h5>
-请大家不要在发言时触碰道德的底线，请不要诋毁，毁谤，孤立，嘲讽，损害国家的，社会的，集体的，他人的的利益。
+<h4 id="mind">2.道德观念问题</h4>
+请大家不要触碰道德的底线，请不要诋毁，毁谤，孤立，嘲讽或损害国家的，社会的，集体的，他人的合法利益。请不要发低俗，恐吓他人的信息。请勿在群中争吵私人问题
+<h4>3.技术性问题</h4>
+请大家在技术交流中，询问的同学尽量把问题描述清楚，最好附带截图。解决问题的同学态度要和蔼一些。当然，如果没有同学回答您的问题，您可以先试试查找搜索引擎，或者直接私信群主
+<h4>4.其他发言规范</h4>
+请大家不要刷屏，不要发<a href="#other">没有授权的广告</a>。热心解决问题的同学有机会获得当管理员的权限。请大家不要传播网络病毒
 </div>
 
 <div id="manage">
 <h3>处罚方法</h3>
-</div>
 
+1.若违反<a href="#mainquestion">原则性问题</a>的，管理员要及时撤回违规信息。遵循第一次10分钟，第二次1小时，第三次1天，第四次直接踢出的基础法则。必要特殊情况可以一遍直接踢出
+2.若违反<a href="#mind">道德观念问题</a>或<a href="#othersent">其他发言规范</a>的，及时撤回信息，第一次5分钟，第二次30分钟，而后两次自行决定，第5此经管理员集体投票通过后踢出。
+3.若以上规则未提到，但引起大众不适，可自行裁决。
+
+</div>
 <div id="other">
 <h3>其他事宜</h3>
+在本群中，若有想推广个人业务者，请与群主私信</br>
+若您对本群某个管理有争议或发现其不正当之举，请私信群主</br>
+群文件奉行公开政策。任何人皆可上传（必须是合法内容）</br>
+本群将会不定期举办活动
 </div>
 
 <div id="relative">
 <h3>您与我们</h3>
+群主个人QQ：639452380</br>
+感谢诸位！希望您能在本群学到更多知识！
 </div>
 
 </body>
