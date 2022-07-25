@@ -1,8 +1,7 @@
 body {
-  background-color: #fafffa;
   font-family: 'Noto Sans', sans-serif;
   font-family: Microsoft YaHei UI;
-  background:url("../pic/background.jpeg")no-repeat;
+  background:url("../pic/background.jpeg");
 }
 p {
     display: block;
@@ -14,6 +13,11 @@ p {
 img {
      width: 150px;
      height: 150px;
+}
+div{
+    background-color: #ffffff;
+    border-radius: 10px;
+    opacity:0.5;
 }
 h1 {
     display: block;
@@ -30,7 +34,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #ffffff;
-  border-radius: 20px;
+  border-radius: 10px;
   position: sticky;
   top: 0px;
   width: 100%;
