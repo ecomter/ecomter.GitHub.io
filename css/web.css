@@ -1,7 +1,8 @@
 body {
   font-family: 'Noto Sans', sans-serif;
   font-family: Microsoft YaHei UI;
-  background:url("../pic/background.jpeg");
+  background:url("https://easycomputer1.GitHub.io/pic/background.jpeg");
+  background-attachment: fixed;
 }
 p {
     display: block;
@@ -15,9 +16,9 @@ img {
      height: 150px;
 }
 div{
-    background-color: #ffffff;
+    background-color: rgba(255,255,255,0.5);
+    backdrop-filter: blur(30px);
     border-radius: 10px;
-    opacity:0.5;
 }
 h1 {
     display: block;
@@ -33,15 +34,16 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: rgba(255,255,255,0.5);
   position: sticky;
   top: 0px;
   width: 100%;
-  text-align:center;
+  text-align: center;
 }
 
 li {
   float: left;
+  background-color: rgba(255,255,255,0);
 }
 
 li a {
@@ -51,10 +53,11 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   border-radius: 10px;
+  background-color: rgba(255,255,255,0);
 }
 
 a:hover:not(.active) {
-  background-color: #14fff2;
+  background-color: rgba(255,255,255,0);
   border-radius: 10px;
 }
 
@@ -64,10 +67,10 @@ a:hover:not(.active) {
 }
 
 .BlogResult {
-  border-radius: 20px;
-  background-color: white;
+  border-radius: 10px;
   text-decoration: none;
   color: rgb(0, 0, 0);
+  background-color: rgba(255,255,255,0.5);
 }
 .Pagefoot {
   background-color: white;
@@ -76,6 +79,7 @@ a:hover:not(.active) {
   text-decoration: none;
   border-radius: 20px;
   padding: 10px;
+  background-color: rgba(255,255,255,0.5);
 }
 
 p a:link,.Pagefoot a:link,h4 a:link,p a:visited,div a:visited,h4 a:visited{
