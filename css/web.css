@@ -2,6 +2,7 @@ body {
   background-color: #fafffa;
   font-family: 'Noto Sans', sans-serif;
   font-family: Microsoft YaHei UI;
+  background:url("../pic/background.jpeg")no-repeat;
 }
 p {
     display: block;
