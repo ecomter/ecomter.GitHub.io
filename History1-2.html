@@ -1,0 +1,213 @@
+<!DOCTYPE html> 
+<html lang="zh">
+<head>
+   <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"> 
+<title>EasyComputer的博客-MS-DOS</title>
+<meta name='description' content="EasyComputer的博客：MS-DOS的发展历程（非常详细）">
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" /> 
+<link rel="stylesheet" type="text/css" href="../css/web.css">
+ </head>
+<html>
+<body>
+   <div class="mdui-appbar mdui-appbar-fixed">
+      <div class="mdui-toolbar mdui-color-indigo">
+        <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+        
+          <i class="mdui-icon material-icons" mdui-drawer="{target: '#left-drawer'}">menu</i>
+        </a>
+        <span class="mdui-typo-title">EasyComputer的博客</span>
+        <div class="mdui-toolbar-spacer"></div>
+        <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+          <i class="mdui-icon material-icons">search</i>
+        </a>
+      </div>
+      </div>
+        
+      <div class="mdui-drawer" id="left-drawer">
+          <ul class="mdui-list">
+      <li class="mdui-subheader">主要</li>
+        <li class="mdui-list-item mdui-ripple">
+          <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
+          <div class="mdui-list-item-content" onclick="window.open('../','_self')">主页</div>
+        </li>
+        <li class="mdui-list-item mdui-ripple">
+          <i class="mdui-list-item-icon mdui-icon material-icons">dehaze</i>
+          <div class="mdui-list-item-content" onclick="window.open('../blog/','_self')"><B>博客</B></div>
+        </li>
+        <li class="mdui-list-item mdui-ripple">
+          <i class="mdui-list-item-icon mdui-icon material-icons">file_download</i>
+          <div class="mdui-list-item-content" onclick="window.open('../downloadcenter/','_self')">下载中心</div>
+        </li>
+      <li class="mdui-subheader">其他</li>
+        <li class="mdui-list-item mdui-ripple">
+          <i class="mdui-list-item-icon mdui-icon material-icons">info</i>
+          <div class="mdui-list-item-content" onclick="window.open('../about/','_self')">关于</div>
+        </li>
+      <li class="mdui-list-item mdui-ripple">
+          <i class="mdui-list-item-icon mdui-icon material-icons">link</i>
+          <div class="mdui-list-item-content" onclick="window.open('../rules/','_self')">群规</div>
+        </li>
+      </ul>
+          
+        </div>
+<div class="basic">
+<h1>MS-DOS</h1>
+<h2>1.磁盘操作系统</h2>
+<p>磁盘操作系统（Disk Operating System），是早期个人计算机上的一类操作系统。DOS家族包括MS-DOS、PC-DOS、DR-DOS、FreeDOS、NovellDOS、PTS-DOS、ROM-DOS、JM-OS等，其中以MS-DOS最为著名，最自由开放的则是Free-DOS。虽然这些系统常被简称为”DOS”，但没有任何一个系统单纯以”DOS”命名（只有一个毫无关连的1960年IBM大型主机操作系统以此命名）。此外，有几个和DOS无关、在非x86的微计算机系统上运行的磁盘操作系统在名称中也有”DOS”字眼，而且在专门讨论该机器的场合中也会简称为”DOS”（例如：AmigaDOS、AMSDOS、ANDOS、Apple DOS、Atari DOS、Commodore DOS、CSI-DOS、ProDOS、TRS-DOS等），但这些系统和DOS可执行文件以及MS-DOS API并不兼容。</p>
+<h2>2.MS-DOS介绍</h2>
+<p>MS-DOS（微软磁盘操作系统），是美国微软公司提供的磁盘操作系统。在美国微软公司推出Windows1.0、Windows3.0、1995年8月24日推出的操作系统Windows 95以前，磁盘操作系统是IBM PC及兼容机中的最基本配备，而MS-DOS则是个人电脑中最普遍使用的磁盘操作系统之一。
+最基本的MS-DOS系统由一个基于主引导记录(硬盘才有主引导记录，软碟没有主引导记录)启动磁区位于第0轨的磁区中，内容上与硬盘的MBR略有不同的BOOT引导程序和三个文件模块组成。这三个模块是输入输出模块(IO.SYS)、文件管理模块（MSDOS.SYS）及命令解释模块。（不过在MS-DOS 7.0中，MSDOS.SYS被改为启动配置文件，而IO.SYS增加了MSDOS.SYS的功能）除此之外，微软还在零售的MS-DOS系统包中加入了若干标准的外部程序（即外部命令），这才与内部命令一同构建起一个在磁盘操作时代相对完备的人机交互环境。
+MS-DOS使用者可通过编辑2个位于开机磁盘根目录的系统档案来达到调控系统组态之目的，它们分别是CONFIG.SYS及AUTOEXEC.BAT，IO.SYS会检视CONFIG.SYS以加载指定的硬体驱动程序，则自动执行AUTOEXEC.BAT所载的批次指令。
+</br>MS-DOS一般使用命令行界面来接受用户的指令，不过在后期的MS-DOS版本中，DOS程序也可以通过调用相应的DOS中断来进入图形模式程序</p>
+<h2>3.MS-DOS发展历史</h2>
+<table border="1" style="border-collapse: collapse;">
+  <tr>
+    <th>版本</th>
+    <th>特性</th>
+  </tr>
+  <tr>
+     <td>MS-DOS 1.0</td>
+     <td>微软买下86-DOS（QDOS）著作权，1981年7月，成为IBM PC上第一个作业系统。同时微软为IBM PC开发专用版本PC-DOS，但与泛用版本MS-DOS相比，除了系统文件名以及部分针对IBM机器设计的核心，外部命令与公用程序之外，其余代码其实差异不大。</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 1.25</td>
+     <td>1982年6月，支持双面软盘并开始修改错误；不仅IBM，许多OEM也开始使用MS-DOS
+
+</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 2.0</td>
+     <td>1983年3月，加入UNIX式的树状文件系统与及最高10MB容量的硬盘支持，以低端的观点视之，这是第一次的DOS重大改版。这个版本除了兼容于CP/M的FCB文件系统之外，正式采用了文件配置表格式，并大量使用具有UNIX特征的Handle式文件操作方式</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 2.11</td>
+     <td>1984年3月，为主要的OEM版本，修正了2.01版的错误，增加了对非英语语言及其文件格式的国际性支持</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 2.25</td>
+     <td>1985年10月，支持额外扩展的字符组（日文与韩文），还修正了旧版的错误1985年10月，支持额外扩展的字符组（日文与韩文），还修正了旧版的错误</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 3.0</td>
+     <td>1984年8月，引入PC/AT，它能支持1.2MB的软盘，并加入较高容量的硬盘</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 3.1</td>
+     <td>1984年11月，加入对微软网络支持</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 3.2</td>
+     <td>1986年1月，加入了3.5吋软盘的强化支持，并开始可以透过驱动程序使用硬件EMS。台湾的宏碁电脑在资策会与公会的支持下，与微软在MS-DOS 3.2的基础上开发了符合财团法人中文数字化技术推广基金会标准的全中文DOS：MS-DOS 3.21，并配合当时第一代的松下汉音输入法搭载于当时宏碁的机器上，汉音输入法是台湾最早的智能中文输入法，现在则是MacOS中内置默认的中文输入法之一。由于中文内码采用公会码，与主流的大五码并不兼容，以致MS-DOS 3.21版本台湾销量并不好。但MS-DOS 3.21的技术受到广泛的使用，中文系统独立成为【宏碁中文工作室】软件，CMEX规格则成为业界中文系统标准，并在后来主要的系统厂商如倚天中文系统、微软的Windows中文版下被采用，而其内部使用的GW-BASIC后来更成为后来MS-DOS的标准软件</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 3.3</td>
+     <td>1987年8月，修正部分内部错误、增加了许多关于文件处理的外部命令、开始支持软盘之后，MS-DOS 3.3成为当时最稳定、畅销的版本，可以说是MS-DOS第二次的重大改版，一年后发行的4.0甚至还不如3.3普及。内部的BASIC解释器在3.x之后逐渐由BASICA改为增强绘图能力的GW-BASIC。外部命令部分最重要的则是增加了XCOPY与APPEND，增强了早就该有的文件管理能力。</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 4.0</td>
+     <td>1988年6月，主要基于IBM的代码库，而不是微软自己的代码库。加入了最大2GB容量硬盘驱动器支持，引入EMM（软件模拟EMS）以及新规格XMS存储器技术，令MS-DOS操作系统可以使用1MB以上的存储器。开始有DOSSHELL的使用。DOSSHELL可以被视为MS-DOS的GUI界面，并有切换程序作业的能力。
+
+</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 4.01</td>
+     <td>1988年12月，对于旧版所存在的一系列错误进行修正</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 5.0</td>
+     <td>1991年6月，第三次重大改版，可能也是MS-DOS史上最重要的改版。这个版本继承4.0对于存储器管理的改进，是EMM规格最为稳定、普及的版本，也加入了许多存储器管理的程序，如EMM386、MEM等等，为的就是与Windows作业环境好好搭配，连带也使得MS-DOS存储器管理成为当时许多软件亟欲配合增强的方向，如何设置MS-DOS存储器配置成为热门话题。BASIC解释器改为QuickBasic的简易版本QBASIC，内置文本编辑器则由原来的行编辑EDLIN改为全屏编辑的EDIT（其实只是对QBASIC.EXE多下一道参数而已）。减少外部命令对于版本的需求，而在千呼万唤中，终于加入DOSKEY、UNDELETE、Quick Format、UNFORMAT等。这个版本的CONFIG.SYS允许多重选项，方便用户于引导时切换不同的引导配置设置，以满足不同应用程序的需求，特别是当时一些极度耗费存储器的游戏、常驻程序以及常用的中文系统等...</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 6.0</td>
+     <td>1993年3月，加入了许多花俏的外部命令。系统检测程序MSD被加入。DoubleSpace压缩磁盘技术开始被使用，亦开始附上微软自家的解毒软件VSAFE以及MSAV。网络方面开始加入对LL5传输线的支持。对于磁盘，开始加入扇区整理软件DEFRAG以及磁盘缓存程序SMARTDRV。文件管理方面，以豪华的MSBACKUP取代了命令行方式的BACKUP，另外，终于加入了DELTREE与MOVE公用程序。开始正式支持光盘驱动器。存储器管理方面则加入了功能较丰富的MEMMAKER配置优化程序。</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 6.2</td>
+     <td>1993年11月，修复DoubleSpace的bug</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 6.21</td>
+     <td>1994年2月，移除DoubleSpace</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 6.22</td>
+     <td>1994年6月，最后一个销售版本，磁盘压缩器改版为DriveSpace重新登场。国乔（KC）获取微软与IBM授权，搭配国乔中文系统发表自己的DOS 7.0</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 7.0</td>
+     <td>1995年8月，Windows 95所带的版本，支持长文件名。</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 7.1</td>
+     <td>1996年8月，Windows 95 OSR2、Windows 98、Windows 98SE所带，加入对大硬盘和FAT32分区的支持等</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 8.0</td>
+     <td>2000年9月，Windows Me所带，抛弃了硬盘上的DOS实模式支持（可以恢复）</td>
+  </tr>
+  <tr>
+     <td>MS-DOS 后期发展</td>
+     <td>Windows NT中 cmd.exe</td>
+  </tr>
+</table>
+<h2>4.常用命令</h2>
+<p>MD——建立子目录</br>
+CD——定位到这个目录（CD.. 返回到上一级目录，CD\ 返回到根目录）</br>
+DEL——删除文件</br>
+RMDIR——删除目录（默认只能删除空目录，但是加入/s参数就能删除非空目录）</br>
+UNDELETE——恢复删除</br>
+DIR—显示磁盘目录下的文件</br>
+PATH——配置环境变量</br>
+TREE——以树状图显示磁盘目录结构</br>
+FORMAT——磁盘格式化</br>
+UNFORMAT——恢复格式化</br>
+SCANDISK——检测、修复磁盘（旧版，对NTFS支持性不好）</br>
+REPLACE——替换文件</br>
+CHKDSK——检查、修复磁盘（新版）</br>
+DISKCOPY——整盘复制</br>
+LABEL——建立磁盘卷标</br>
+VOL——显示磁盘卷标</br>
+DEFRAG——磁盘碎片整理</br>
+SYS——系统文件复制</br>
+COPY——文件复制</br>
+XCOPY——目录复制</br>
+TYPE——显示文本文件内容（不能使用通配符）</br>
+REN——文件改名</br>
+FC——文件比较</br>
+ATTRIB——修改文件属性（只读，存档，隐藏，系统，压缩，加密，无内容，完整，无清理）</br>
+CLS——清屏</br>
+VER——查看系统版本号</br>
+DATA——日期设置</br>
+TIME——系统时钟设置</br>
+MEM——查看当前内存状况</br>
+MSD——显示系统信息</br>
+HELP——帮助</br>
+COLOR——改变颜色</br>
+FIND——在一个或多个文件中搜索一个文本字符串</br>
+FINDSTR——在多个文件中搜索字符串</br>
+*——通配符</br>
+\——目录</br>
+/——参数</br></p>
+<h3>网络相关命令</h3>
+<p>ARP——“地址解析协议”地址翻译表</br>
+Finger——显示有关用户的信息</br>
+Ftp——传送文件</br>
+Netstats TCP/IP——协议诊断</br>
+Netstat——显示协议统计和当前的 TCP/IP 网络连接</br>
+Ping——验证与远程计算机的连接</br>
+Rcp——系统之间复制文件</br>
+Rexec——服务的远程计算机上运行</br>
+Route——控制网络路由表</br>
+Rsh——远程计算机上运行</br>
+Tftp——传输文件</br>
+Tracert——路由追踪</br></br></p>
+<p>部分内容来源 Wikipedia，百度百科 </p>
+</div>
+<div class="Pagefoot">
+  <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff >萌ICP备20220539号</a>         
+  <p>Copyright EasyComputer 2022</p>
+ </div>
+ <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> 
+</body>
+</html>
