@@ -29,44 +29,6 @@ h1 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgba(255,255,255,0.5);
-  position: sticky;
-  top: 0px;
-  width: 100%;
-  text-align: center;
-  z-index:9999;
-}
-
-li {
-  float: left;
-  background-color: rgba(255,255,255,0);
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  border-radius: 10px;
-  background-color: rgba(255,255,255,0);
-}
-
-a:hover:not(.active) {
-  background-color: rgba(255,255,255,0);
-  border-radius: 10px;
-}
-
-.active {
-  background-color:#76bbff;
-  border-radius: 10px;
-}
-
 .BlogResult {
   border-radius: 10px;
   text-decoration: none;
