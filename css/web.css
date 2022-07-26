@@ -49,7 +49,7 @@ p a:link,h4 a:link,p a:visited,div a:visited,h4 a:visited{
   color:blue;
   text-decoration: none;
 }
-.button a:link,.button a:visited,.Pagefoot a:link,.Pagefoot a:visited{
+button a:link,button a:visited,.Pagefoot a:link,.Pagefoot a:visited{
   text-decoration: none;
   color:white;
 }
