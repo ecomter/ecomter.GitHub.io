@@ -9,9 +9,50 @@
   <meta charset="UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes"> 
   <link href="http://fonts.font.im/css?family=Noto+Sans:400,700&amp;subset=latin,greek" rel="stylesheet" type="text/css"> 
-  <link rel="stylesheet" type="text/css" href="../css/web.css"> 
+  <link rel="stylesheet" type="text/css" href="css/web.css"> 
  </head> 
+ <div class="mdui-toolbar mdui-color-theme">
+  <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+    <i class="mdui-icon material-icons">menu</i>
+  </a>
+  <span class="mdui-typo-title">EasyComputer的博客</span>
+  <div class="mdui-toolbar-spacer"></div>
+  <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+    <i class="mdui-icon material-icons">menu</i>
+  </a>
+</div>
+
+
+ 
+ 
  <body class="mdui-bottom-nav-fixed"> 
+   <div class="mdui-tab mdui-color-indigo mdui-tab-text-auto" mdui-tab>
+  <a href="#example6-tab1" class="mdui-ripple">
+    <i class="mdui-icon material-icons">home</i>
+    <label>主页</label>
+  </a>
+  <a href="#example6-tab2" class="mdui-ripple mdui-tab-active">
+    <i class="mdui-icon material-icons">dehaze</i>
+    <label>博客</label>
+  </a>
+  <a href="#example6-tab3" class="mdui-ripple">
+    <i class="mdui-icon material-icons">file_download</i>
+    <label>下载中心</label>
+  </a>
+  <a href="#example6-tab4" class="mdui-ripple">
+    <i class="mdui-icon material-icons">info</i>
+    <label>关于</label>
+  </a>
+</div>
+</div>
+  <!--
+    <ul> 
+   <li><a class="active" href="../">首页</a></li> 
+   <li><a href="blog">博客</a></li> 
+   <li><a href="downloadcenter">下载中心</a></li> 
+   <li><a href="about">关于</a></li> 
+  </ul> 
+  -->
   <div class="basic"> 
    <p style="font-size:34px;text-align: center;"><br> <br><script language="JavaScript">
 <!-- Hide
@@ -39,7 +80,7 @@ document.write(quote)
   <h2> 欢迎来到 EasyComputer 的博客！</h2> 
   <h2> 最近更新 </h2> 
   <div class="empty"> 
-   <form method="get" action="blog/History1-1.html"> <button type="submit" class="mdui-btn-raised"> <h2>Windows进化史（初步历程）</h2> <p style="text-align: left;font-size=22px">世界上第一台通用计算机“ENIAC”于1946年2月14日在美国宾夕法尼亚大学诞生。发明人是美国人莫克利（JohnW.Mauchly）和艾克特（J.PresperEckert）。美国国防部用它来进行弹道计算。它是一个庞然大物，用了18000个电子管，占地170平方米，重达30吨，耗…</p> </button>
+   <form method="get" action="blog/History1-1.html"> <button type="submit" class="mdui-btn-raised"> <h2>Windows进化史（初步历程）</h2> <p style="text-align: left;font-size=22px">世界上第一台通用计算机“ENIAC”于1946年2月14日在美国宾夕法尼亚大学诞生。发明人是美国人莫克利（JohnW.Mauchly）和艾克特（J.PresperEckert）。美国国防部用它来进行弹道计算。它是一个庞然大物，用了18000个电子管，占地170平方米，重达30吨，耗…</p> </button> 
    </form> 
   </div> 
   <br> 
@@ -47,7 +88,6 @@ document.write(quote)
   <div class="empty"> 
    <form method="get" action="blog/History1-2.html"> <button type="submit" class="mdui-btn-raised mdui-ripple"> <h2>MS-DOS时代</h2> <p style="text-align: left;font-size=22px">磁盘操作系统（Disk Operating System），是早期个人计算机上的一类操作系统。DOS家族包括MS-DOS、PC-DOS、DR-DOS、FreeDOS、NovellDOS、PTS-DOS、ROM-DOS、JM-OS等，其中以MS-DOS最为著名，最自由开放的则是Free-DOS。虽然这些系统常…</p> </button> 
    </form> 
-   
   </div> 
   <h2> 附录网站 </h2> 
   <div class="basic"> 
@@ -57,27 +97,9 @@ document.write(quote)
    <p>Copyright EasyComputer 2022</p> 
   </div> 
   
-  <div class="mdui-bottom-nav mdui-color-indigo mdui-bottom-nav-text-auto">
-  <a href="javascript:;" class="mdui-ripple mdui-bottom-nav-active">
-    <i class="mdui-icon material-icons">home</i>
-    <label>主页</label>
-  </a>
-  <a href="javascript:;" class="mdui-ripple">
-    <i class="mdui-icon material-icons">dehaze</i>
-    <label>博客</label>
-  </a>
-  <a href="javascript:;" class="mdui-ripple">
-    <i class="mdui-icon material-icons">file_download</i>
-    <label>下载中心</label>
-  <a href="javascript:;" class="mdui-ripple">
-    <i class="mdui-icon material-icons">info</i>
-    <label>关于</label>
-  </a>
-</div>
-
-
-
-
+            
+ 
+   
   <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> 
  </body>
 </html>
