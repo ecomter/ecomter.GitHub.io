@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
 <html lang="zh">
 <head>
+   <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"> 
 <title>EasyComputer的博客-MS-DOS</title>
 <meta name='description' content="EasyComputer的博客：MS-DOS的发展历程（非常详细）">
  <meta charset="UTF-8">
@@ -9,13 +10,48 @@
  </head>
 <html>
 <body>
-<ul>
-  <li><a href="../">首页</a></li>
-  <li><a class="active" href="../blog/">博客</a></li>
-  <li><a href="../downloadcenter/">下载中心</a></li>
-  <li><a href="../about">关于</a></li>
-</ul>
-<div>
+   <div class="mdui-appbar mdui-appbar-fixed">
+      <div class="mdui-toolbar mdui-color-indigo">
+        <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+        
+          <i class="mdui-icon material-icons" mdui-drawer="{target: '#left-drawer'}">menu</i>
+        </a>
+        <span class="mdui-typo-title">EasyComputer的博客</span>
+        <div class="mdui-toolbar-spacer"></div>
+        <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+          <i class="mdui-icon material-icons">search</i>
+        </a>
+      </div>
+      </div>
+        
+      <div class="mdui-drawer" id="left-drawer">
+          <ul class="mdui-list">
+      <li class="mdui-subheader">主要</li>
+        <li class="mdui-list-item mdui-ripple">
+          <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
+          <div class="mdui-list-item-content" onclick="window.open('../','_self')">主页</div>
+        </li>
+        <li class="mdui-list-item mdui-ripple">
+          <i class="mdui-list-item-icon mdui-icon material-icons">dehaze</i>
+          <div class="mdui-list-item-content" onclick="window.open('../blog/','_self')"><B>博客</B></div>
+        </li>
+        <li class="mdui-list-item mdui-ripple">
+          <i class="mdui-list-item-icon mdui-icon material-icons">file_download</i>
+          <div class="mdui-list-item-content" onclick="window.open('../downloadcenter/','_self')">下载中心</div>
+        </li>
+      <li class="mdui-subheader">其他</li>
+        <li class="mdui-list-item mdui-ripple">
+          <i class="mdui-list-item-icon mdui-icon material-icons">info</i>
+          <div class="mdui-list-item-content" onclick="window.open('../about/','_self')">关于</div>
+        </li>
+      <li class="mdui-list-item mdui-ripple">
+          <i class="mdui-list-item-icon mdui-icon material-icons">link</i>
+          <div class="mdui-list-item-content" onclick="window.open('../rules/','_self')">群规</div>
+        </li>
+      </ul>
+          
+        </div>
+<div class="basic">
 <h1>MS-DOS</h1>
 <h2>1.磁盘操作系统</h2>
 <p>磁盘操作系统（Disk Operating System），是早期个人计算机上的一类操作系统。DOS家族包括MS-DOS、PC-DOS、DR-DOS、FreeDOS、NovellDOS、PTS-DOS、ROM-DOS、JM-OS等，其中以MS-DOS最为著名，最自由开放的则是Free-DOS。虽然这些系统常被简称为”DOS”，但没有任何一个系统单纯以”DOS”命名（只有一个毫无关连的1960年IBM大型主机操作系统以此命名）。此外，有几个和DOS无关、在非x86的微计算机系统上运行的磁盘操作系统在名称中也有”DOS”字眼，而且在专门讨论该机器的场合中也会简称为”DOS”（例如：AmigaDOS、AMSDOS、ANDOS、Apple DOS、Atari DOS、Commodore DOS、CSI-DOS、ProDOS、TRS-DOS等），但这些系统和DOS可执行文件以及MS-DOS API并不兼容。</p>
@@ -172,5 +208,6 @@ Tracert——路由追踪</br></br></p>
   <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff >萌ICP备20220539号</a>         
   <p>Copyright EasyComputer 2022</p>
  </div>
+ <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> 
 </body>
 </html>

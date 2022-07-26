@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
 <html lang="zh">
 <head>
+  <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"> 
 <meta name='description' content="Easy Computer的个人博客。博客包含Windows进化史。世界这么大，与你相遇是缘分">
 <title>EasyComputer的博客-初期计算机</title>
  <meta charset="UTF-8">
@@ -9,13 +10,48 @@
  </head>
 <html>
 <body>
-<ul>
-  <li><a href="../">首页</a></li>
-  <li><a class="active" href="../blog/">博客</a></li>
-  <li><a href="../downloadcenter/">下载中心</a></li>
-  <li><a href="../about">关于</a></li>
-</ul>
-<div>
+  <div class="mdui-appbar mdui-appbar-fixed">
+    <div class="mdui-toolbar mdui-color-indigo">
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+      
+        <i class="mdui-icon material-icons" mdui-drawer="{target: '#left-drawer'}">menu</i>
+      </a>
+      <span class="mdui-typo-title">EasyComputer的博客</span>
+      <div class="mdui-toolbar-spacer"></div>
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+        <i class="mdui-icon material-icons">search</i>
+      </a>
+    </div>
+    </div>
+      
+    <div class="mdui-drawer" id="left-drawer">
+        <ul class="mdui-list">
+    <li class="mdui-subheader">主要</li>
+      <li class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
+        <div class="mdui-list-item-content" onclick="window.open('../','_self')">主页</div>
+      </li>
+      <li class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons">dehaze</i>
+        <div class="mdui-list-item-content" onclick="window.open('../blog/','_self')"><B>博客</B></div>
+      </li>
+      <li class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons">file_download</i>
+        <div class="mdui-list-item-content" onclick="window.open('../downloadcenter/','_self')">下载中心</div>
+      </li>
+    <li class="mdui-subheader">其他</li>
+      <li class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons">info</i>
+        <div class="mdui-list-item-content" onclick="window.open('../about/','_self')">关于</div>
+      </li>
+    <li class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons">link</i>
+        <div class="mdui-list-item-content" onclick="window.open('../rules/','_self')">群规</div>
+      </li>
+    </ul>
+        
+      </div>
+<div class="basic">
 <h1> 初期计算机 </h1>
 <h2> 1.第一台计算机 </h2>
 <p> 世界上第一台通用计算机“ENIAC”于1946年2月14日在美国宾夕法尼亚大学诞生。发明人是美国人莫克利（JohnW.Mauchly）和艾克特（J.PresperEckert）。美国国防部用它来进行弹道计算。它是一个庞然大物，用了18000个电子管，占地170平方米，重达30吨，耗电功率约150千瓦，每秒钟可进行5000次运算。ENIAC以电子管作为元器件，所以又被称为电子管计算机。电子管计算机由于使用的电子管体积很大，耗电量大，易发热，因而工作的时间不能太长。 </p>
@@ -30,5 +66,6 @@
   <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff >萌ICP备20220539号</a>         
   <p>Copyright EasyComputer 2022</p>
  </div>
+ <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> 
 </body>
 </html>

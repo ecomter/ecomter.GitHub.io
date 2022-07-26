@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
+  <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"> 
 <title>EasyComputer的博客-博客</title>
 <link rel="stylesheet" type="text/css" href="../css/web.css">
 <meta charset="UTF-8">
@@ -8,12 +9,47 @@
 </head>
 <html>
 <body>
-<ul>
-  <li><a href="../">首页</a></li>
-  <li><a class="active" href="../blog/">博客</a></li>
-  <li><a href="../downloadcenter/">下载中心</a></li>
-  <li><a href="../about">关于</a></li>
-</ul>
+  <div class="mdui-appbar mdui-appbar-fixed">
+    <div class="mdui-toolbar mdui-color-indigo">
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+      
+        <i class="mdui-icon material-icons" mdui-drawer="{target: '#left-drawer'}">menu</i>
+      </a>
+      <span class="mdui-typo-title">EasyComputer的博客</span>
+      <div class="mdui-toolbar-spacer"></div>
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+        <i class="mdui-icon material-icons">search</i>
+      </a>
+    </div>
+    </div>
+      
+    <div class="mdui-drawer" id="left-drawer">
+        <ul class="mdui-list">
+    <li class="mdui-subheader">主要</li>
+      <li class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
+        <div class="mdui-list-item-content" onclick="window.open('../','_self')">主页</div>
+      </li>
+      <li class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons">dehaze</i>
+        <div class="mdui-list-item-content" onclick="window.open('../blog/','_self')"><B>博客</B></div>
+      </li>
+      <li class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons">file_download</i>
+        <div class="mdui-list-item-content" onclick="window.open('../downloadcenter/','_self')">下载中心</div>
+      </li>
+    <li class="mdui-subheader">其他</li>
+      <li class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons">info</i>
+        <div class="mdui-list-item-content" onclick="window.open('../about/','_self')">关于</div>
+      </li>
+    <li class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons">link</i>
+        <div class="mdui-list-item-content" onclick="window.open('../rules/','_self')">群规</div>
+      </li>
+    </ul>
+        
+      </div>
 <h1>博客</h1>
 <h2>Windows进化历程</h2>
 <p>
@@ -24,5 +60,6 @@
   <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff >萌ICP备20220539号</a>         
   <p>Copyright EasyComputer 2022</p>
  </div>
+ <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> 
 </body>
 </html>
