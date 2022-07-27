@@ -40,7 +40,7 @@ h1 {
   color: rgb(0, 0, 0);
   text-align:center;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 5px;
   padding: 10px;
   background-color: rgba(255,255,255,0.5);
 }
@@ -67,7 +67,7 @@ button a:link,button a:visited,.Pagefoot a:link,.Pagefoot a:visited{
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 .button.after{
     content:" ";
