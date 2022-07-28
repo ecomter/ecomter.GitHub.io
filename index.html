@@ -32,15 +32,15 @@
 }
 </style>
 </head> 
- <body class="mdui-appbar-with-tab-larger mdui-appbar-with-toolbar"> 
+ <body class="mdui-appbar-with-toolbar mdui-theme-primary-indigo">  
   <div class="grid-container">
 <div class="mdui-appbar mdui-appbar-fixed"> 
-   <div class="mdui-toolbar mdui-color-indigo"> <a href="javascript:;" class="mdui-btn mdui-btn-icon"> <i class="mdui-icon material-icons" mdui-drawer="{target: '#left-drawer'}">menu</i> </a> <span class="mdui-typo-title">EasyComputer的博客</span> 
+   <div class="mdui-toolbar mdui-color-theme"> <a href="javascript:;" class="mdui-btn mdui-btn-icon"> <i class="mdui-icon material-icons" mdui-drawer="{target: '#left-drawer'}">menu</i> </a> <span class="mdui-typo-title">EasyComputer的博客</span> 
     <div class="mdui-toolbar-spacer"> 
     </div> <a href="javascript:;" class="mdui-btn mdui-btn-icon"> <i class="mdui-icon material-icons" onclick="javascript:location.reload();">refresh</i> </a> 
    </div> 
   </div> 
-  <div class="mdui-drawer mdui-color-indigo mdui-list-dense item2" id="left-drawer"> 
+  <div class="mdui-drawer mdui-color-theme mdui-list-dense item2" id="left-drawer"> 
    <ul class="mdui-list"> 
     <li class="mdui-subheader" style="color:white;">主要</li> 
     <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">home</i> 
@@ -63,14 +63,14 @@
      <div class="mdui-list-item-content" onclick="window.open('rules/','_self')">
       群规
      </div> </li> 
-    <li class="mdui-subheader" style="color:white;">页面设置</li> <button class="mdui-btn" id="goTop-show">打开悬浮球</button> <button class="mdui-btn" id="goTop-hide">隐藏悬浮球</button> 
+    <li class="mdui-subheader" style="color:white;">页面设置</li> <div><button class="mdui-btn" id="goTop-show">打开悬浮球</button> <button class="mdui-btn" id="goTop-hide">隐藏悬浮球</button></div> <button class="mdui-btn" id="feedback" onclick="window.open('feedback/','_self')">页面显示错误？</button>
    </ul> 
   </div> 
 
  
 <div class="item3">
-  <div class="basic mdui-color-indigo mdui-ripple mdui-shadow-20"> 
-   <p style="font-size:34px;text-align: center;"><br><script language="JavaScript">
+  <div class="basic mdui-color-theme mdui-ripple mdui-shadow-20"> 
+   <p style="font-size:34px;text-align: center;"><br> <br><script language="JavaScript">
 <!-- Hide
 var rand1 = Math.floor(Math.random()*24+1);
 quotes = new Array
@@ -105,11 +105,10 @@ var quote = quotes[rand1]
 <!-- Hide
 document.write(quote)
 // -->
-</script><br> <br> <br></p>
-  </div> 
-  <h2> 欢迎来到 EasyComputer 的博客！</h2> 
-  <h2> 最近更新 </h2> 
-  <h3>推荐博客</h3> 
+</script><br> <br><footer style="text-align:center;"> 欢迎来到 EasyComputer 的博客！</footer></p>
+  </div> <div class="mdui-typo">
+  <h2> <blockquote>最近更新</blockquote> </h2> </div>
+  <div class="mdui-typo"><h3><blockquote>推荐博客</blockquote></h3> </div>
   <div class="mdui-card"> 
    <div class="mdui-card-media"> 
     <img src="pic/Windows.jpeg"> 
@@ -124,10 +123,10 @@ document.write(quote)
      </div> 
     </div> 
    </div> 
-   <div class="mdui-card-actions mdui-card-actions-stacked"> <button class="mdui-btn mdui-ripple mdui-color-indigo"><a href="blog/History1-1.html">1.早期初步历程</a></button> <button class="mdui-btn mdui-ripple mdui-color-indigo"><a href="blog/History1-2.html">2.MS-DOS时代</a></button> 
+   <div class="mdui-card-actions mdui-card-actions-stacked"> <button class="mdui-btn mdui-ripple mdui-color-theme"><a href="blog/History1-1.html">1.早期初步历程</a></button> <button class="mdui-btn mdui-ripple mdui-color-theme"><a href="blog/History1-2.html">2.MS-DOS时代</a></button> 
    </div> 
-  </div> 
-  <h3>推荐软件</h3> 
+  </div> <div class="mdui-typo">
+  <h3><blockquote>推荐软件</blockquote></h3> </div>
   <div class="mdui-card mdui-shadow-15"> 
    <div class="mdui-card-media"> 
     <img src="pic/pcmanager.png"> 
@@ -140,7 +139,7 @@ document.write(quote)
         官方出品，纯净无打扰 
       </div> 
      </div> 
-     <div class="mdui-card-actions"> <button class="mdui-btn mdui-ripple mdui-color-indigo mdui-ripple-white"><a href="https://pcmanager.microsoft.com">官网链接</a></button> 
+     <div class="mdui-card-actions"> <button class="mdui-btn mdui-ripple mdui-color-theme mdui-ripple-white"><a href="https://pcmanager.microsoft.com">官网链接</a></button> 
      </div> 
     </div> 
    </div> 
@@ -159,7 +158,7 @@ document.write(quote)
         好用的音乐软件 
       </div> 
      </div> 
-     <div class="mdui-card-actions"> <button class="mdui-btn mdui-ripple mdui-color-indigo mdui-ripple-white"><a href="downloadcenter/spotify/">官网链接</a></button> 
+     <div class="mdui-card-actions"> <button class="mdui-btn mdui-ripple mdui-color-theme mdui-ripple-white"><a href="downloadcenter/spotify/">官网链接</a></button> 
      </div> 
     </div> 
    </div> 
@@ -168,9 +167,9 @@ document.write(quote)
   <br> 
   <br>
 <div class="item4 mdui-hidden-md-down"> </div>
-  <div class="Pagefoot mdui-color-indigo item5"> <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff>萌ICP备20220539号</a> 
+  <div class="Pagefoot mdui-color-theme item5"> <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff>萌ICP备20220539号</a> 
    <p>Copyright EasyComputer 2022</p> 
-  </div> <button class="mdui-fab mdui-color-indigo mdui-ripple mdui-fab-fixed" id="goTop"> <i class="mdui-icon material-icons">arrow_upward</i> </button> 
+  </div> <button class="mdui-fab mdui-color-theme mdui-ripple mdui-fab-fixed" id="goTop"> <i class="mdui-icon material-icons">arrow_upward</i> </button> 
   </div>
 <script>
   goTop.onclick = function () {
