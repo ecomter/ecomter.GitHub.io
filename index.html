@@ -30,21 +30,18 @@
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+  background-color: white;
 }
 </style>
 </head> 
- <body class="mdui-appbar-with-tab-larger mdui-appbar-with-toolbar item1"> 
-  <div class="mdui-appbar mdui-appbar-fixed "> 
-   <div class="mdui-toolbar mdui-color-indigo"> <a href="javascript:;" class="mdui-btn mdui-btn-icon mdui-hidden-lg-up"> <i class="mdui-icon material-icons" mdui-drawer="{target: '#left-drawer'}">menu</i> </a> <span class="mdui-typo-title">EasyComputer的博客</span> 
+ <body class="mdui-appbar-with-tab-larger mdui-appbar-with-toolbar"> 
+  <div class="mdui-appbar mdui-appbar-fixed item1"> 
+   <div class="mdui-toolbar mdui-color-indigo"> <a href="javascript:;" class="mdui-btn mdui-btn-icon"> <i class="mdui-icon material-icons" mdui-drawer="{target: '#left-drawer'}">menu</i> </a> <span class="mdui-typo-title">EasyComputer的博客</span> 
     <div class="mdui-toolbar-spacer"> 
     </div> <a href="javascript:;" class="mdui-btn mdui-btn-icon"> <i class="mdui-icon material-icons" onclick="javascript:location.reload();">refresh</i> </a> 
    </div> 
   </div> 
-  <div class="mdui-drawer mdui-color-indigo mdui-hidden-lg-up mdui-list-dense" id="left-drawer"> 
+  <div class="mdui-drawer mdui-color-indigo mdui-list-dense" id="left-drawer"> 
    <ul class="mdui-list"> 
     <li class="mdui-subheader" style="color:white;">主要</li> 
     <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">home</i> 
@@ -70,7 +67,7 @@
     <li class="mdui-subheader" style="color:white;">页面设置</li> <button class="mdui-btn" id="goTop-show">打开悬浮球</button> <button class="mdui-btn" id="goTop-hide">隐藏悬浮球</button> 
    </ul> 
   </div> 
-
+<!--
   <div class="mdui-drawer mdui-color-indigo mdui-hidden-lg-up mdui-list-dense" id="left-drawer"> 
    <ul class="mdui-list"> 
     <li class="mdui-subheader" style="color:white;">主要</li> 
@@ -99,9 +96,10 @@
   </div> 
   <div class="mdui-tab mdui-color-indigo mdui-hidden-md-down" mdui-tab> <a href="" class="mdui-ripple mdui-ripple-white mdui-tab-active"> <i class="mdui-icon material-icons">home</i> <label>主页</label> </a> <a href="#blog" class="mdui-ripple mdui-ripple-white"> <i class="mdui-icon material-icons">dehaze</i> <label onclick="window.open('blog/','_self')">博客</label> </a> <a href="#downloadcenter" class="mdui-ripple mdui-ripple-white"> <i class="mdui-icon material-icons">file_download</i> <label onclick="window.open('downloadcenter/','_self')">下载中心</label> </a> <a href="#about" class="mdui-ripple mdui-ripple-white"> <i class="mdui-icon material-icons">info</i> <label onclick="window.open('about/','_self')">关于</label> </a> <a href="#rules" class="mdui-ripple mdui-ripple-white"> <i class="mdui-icon material-icons">link</i> <label onclick="window.open('rules/','_self')">群规</label> </a> 
   </div> 
+-->
  <div class="item2 mdui-hidden-md-down"> </div>
- <div class="item4 mdui-hidden-md-down"> </div>
-<div class="mdui-hidden-lg-up">
+ 
+<div class="item3">
   <div class="basic mdui-color-indigo mdui-ripple mdui-shadow-20"> 
    <p style="font-size:34px;text-align: center;"><br> <br><script language="JavaScript">
 <!-- Hide
@@ -197,106 +195,10 @@ document.write(quote)
     </div> 
    </div> 
   </div> 
-<div class="item3 mdui-hidden-md-down">
-<div class="basic mdui-color-indigo mdui-ripple mdui-shadow-20"> 
-   <p style="font-size:34px;text-align: center;"><br> <br><script language="JavaScript">
-<!-- Hide
-var rand1 = Math.floor(Math.random()*24+1);
-quotes = new Array
-quotes[1] = '世界那么大<br>与你相遇是缘分'
-quotes[2] = '海内存知己<br>天涯若比邻'
-quotes[3] = '秋是白的<br>烟火也是白的<br>想念的姿势从没有远近<br>只有想念'
-quotes[4] = '生活充满了选择，<br>而生活态度就是一切'
-quotes[5] = '没有比人更高的山<br>没有比心更宽的海<br>人是世界的主宰'
-quotes[6] = '越是试图忘记<br>越是记得深刻'
-quotes[7] = '早安<br>清朝的阳光'
-quotes[8] = '“事事小心<br>步步为营”'
-quotes[9] = '再美的爱情经不起等待<br>再深的感情经不起伤害'
-quotes[10] = '人生无常<br>大肠包小肠'
-quotes[11] = '勿以恶小而为之<br>勿以善小而不为'
-quotes[12] = '安迪比尔定律：<br>Andy gives<br>Bill takes away'
-quotes[13] = '不要等待机会<br>而要创造机会'
-quotes[14] = '记住：<br>努力暴富是解决你当前一切问题和困惑的最优途径'
-quotes[15] = '做不了你的太阳<br>就让我做你的影子'
-quotes[16] = '猫喜欢吃鱼却不能下水<br>鱼喜欢吃蚯蚓却不能上岸<br>人生，就是一边拥有<br>一边失去，一边选择，一边放弃'
-quotes[17] = '你走向我，我觉得一日不见如隔三秋<br>你朝我笑，我又觉得三秋未见不过一日'
-quotes[18] = '“有空一起谈个恋爱<br>没空我继续暗恋你”'
-quotes[19] = '生活就像是心电图<br>想要一帆风顺没有起伏<br>除非你死了'
-quotes[20] = '人之初<br>性本善'
-quotes[21] = '时间，就像海棉里的水，<br>只要愿挤，总还是有的'
-quotes[22] = '富强民主文明和谐<br>自由平等公正法治<br>爱国敬业诚信友善'
-quotes[23] = '每天平均有12个新生儿被交给错误的父母<br><br>56%的键盘录入由左手完成'
-quotes[24] = '程序中的bug的名称源自于"虫子"'
-quotes[0] = '激励的秘决：<br>不只是诉之于道理<br>还要诉之于情感'
-var quote = quotes[rand1]
-//-->
-</script> <script language="JavaScript">
-<!-- Hide
-document.write(quote)
-// -->
-</script><br> <br> <br></p> 
-  </div> 
-  <h2> 欢迎来到 EasyComputer 的博客！</h2> 
-  <h2> 最近更新 </h2> 
-  <h3>推荐博客</h3> 
-  <div class="mdui-card"> 
-   <div class="mdui-card-media"> 
-    <img src="pic/Windows.jpeg"> 
-    <div class="mdui-card-media-covered mdui-card-media-covered-transparent"> 
-     <div class="mdui-card-primary"> 
-      <div class="mdui-card-primary-title">
-        Windows进化史 
-      </div> 
-      <div class="mdui-card-primary-subtitle">
-        Windows的演化历程（持续更新） 
-      </div> 
-     </div> 
-    </div> 
-   </div> 
-   <div class="mdui-card-actions mdui-card-actions-stacked"> <button class="mdui-btn mdui-ripple mdui-color-indigo"><a href="blog/History1-1.html">1.早期初步历程</a></button> <button class="mdui-btn mdui-ripple mdui-color-indigo"><a href="blog/History1-2.html">2.MS-DOS时代</a></button> 
-   </div> 
-  </div> 
-  <h3>推荐软件</h3> 
-  <div class="mdui-card mdui-shadow-15"> 
-   <div class="mdui-card-media"> 
-    <img src="pic/pcmanager.png"> 
-    <div class="mdui-card-media-covered"> 
-     <div class="mdui-card-primary"> 
-      <div class="mdui-card-primary-title">
-        微软电脑管家 
-      </div> 
-      <div class="mdui-card-primary-subtitle">
-        官方出品，纯净无打扰 
-      </div> 
-     </div> 
-     <div class="mdui-card-actions"> <button class="mdui-btn mdui-ripple mdui-color-indigo mdui-ripple-white"><a href="https://pcmanager.microsoft.com">官网链接</a></button> 
-     </div> 
-    </div> 
-   </div> 
-  </div> 
   <br> 
   <br> 
-  <div class="mdui-card mdui-shadow-15"> 
-   <div class="mdui-card-media"> 
-    <img src="pic/spotify.jpg"> 
-    <div class="mdui-card-media-covered"> 
-     <div class="mdui-card-primary"> 
-      <div class="mdui-card-primary-title">
-        Spotify音乐 
-      </div> 
-      <div class="mdui-card-primary-subtitle">
-        好用的音乐软件 
-      </div> 
-     </div> 
-     <div class="mdui-card-actions"> <button class="mdui-btn mdui-ripple mdui-color-indigo mdui-ripple-white"><a href="downloadcenter/spotify/">官网链接</a></button> 
-     </div> 
-    </div> 
-   </div> 
-  </div> 
-</div>
-  <br> 
-  <br> 
-  <br> 
+  <br>
+<div class="item4 mdui-hidden-md-down"> </div>
   <div class="Pagefoot mdui-color-indigo item5"> <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff>萌ICP备20220539号</a> 
    <p>Copyright EasyComputer 2022</p> 
   </div> <button class="mdui-fab mdui-color-indigo mdui-ripple mdui-fab-fixed" id="goTop"> <i class="mdui-icon material-icons">arrow_upward</i> </button> 
