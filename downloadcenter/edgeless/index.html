@@ -1,33 +1,103 @@
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-<title>下载EDGELESS</title>
-<link rel="stylesheet" type="text/css" href="../../css/web.css">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" /> 
-</head>
-<html>
-<body>
-<ul>
-  <li><a href="../../">首页</a></li>
-  <li><a href="../../blog/">博客</a></li>
-  <li><a class="active" href="../../downloadcenter/">下载中心</a></li>
-  <li><a href="../../about">关于</a></li>
-</ul>
-<h1>下载中心</h1>
-<h2>Edgeless</h2>
-<p>微PE大家应该都用过，是一款简洁的PE，但是很久没有更新了，所以我向大家推荐Edgeless这款PE，还可以自己加插件哦</p>
+<!doctype html>
+<html lang="zh"> 
+ <head> 
+
+<link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"> 
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6393990555447663" crossorigin="anonymous"></script> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"> 
+  <meta name="google-site-verification" content="PLQYSN6O_IZQV3Awy9eQu9DWiY_V0MdC3cbJncL8Jwg"> 
+  <meta name="description" content="Easy Computer的个人博客。博客包含Windows进化史及电脑常用软件下载。世界这么大，与你相遇是缘分"> 
+  <title>下载edgeless</title> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes"> 
+  <link href="http://fonts.font.im/css?family=Noto+Sans:400,700&amp;subset=latin,greek" rel="stylesheet" type="text/css"> 
+  <link rel="stylesheet" type="text/css" href="../../css/web.css"> 
+</head> 
+  <body class="mdui-appbar-with-toolbar mdui-theme-primary-indigo"> 
+  <div class="mdui-appbar mdui-appbar-fixed"> 
+   <div class="mdui-toolbar mdui-color-theme"> <a href="javascript:;" class="mdui-btn mdui-btn-icon"> <i class="mdui-icon material-icons" mdui-drawer="{target: '#left-drawer'}">menu</i> </a> <span class="mdui-typo-title">EasyComputer的博客</span> 
+    <div class="mdui-toolbar-spacer"></div> <a href="javascript:;" class="mdui-btn mdui-btn-icon"> <i class="mdui-icon material-icons">search</i> </a> 
+   </div> 
+  </div> 
+  <div class="mdui-drawer mdui-color-theme" id="left-drawer"> 
+   <ul class="mdui-list mdui-list-dense">  
+    <li class="mdui-subheader" style="color:white;">主要</li> 
+    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">home</i> 
+     <div class="mdui-list-item-content" onclick="window.open('https://easycomputer1.github.io/','_self')">
+       主页 
+     </div> </li> 
+    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">dehaze</i> 
+     <div class="mdui-list-item-content" onclick="window.open('../../blog/','_self')">
+       博客 
+     </div> </li> 
+    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">file_download</i> 
+     <div class="mdui-list-item-content" onclick="window.open('../','_self')"> <b>下载中心</b> 
+     </div> </li> 
+     <li class="mdui-subheader" style="color:white;">下载中心</li> 
+       <li class="mdui-list-item mdui-ripple">
+     <div class="mdui-list-item-content" onclick="window.open('../dism++','_self')">Dism++
+     </div> </li> 
+     <li class="mdui-list-item mdui-ripple">
+     <div class="mdui-list-item-content" onclick="window.open('../edgeless','_self')"><b>edgeless</b> 
+     </div> </li> 
+      <li class="mdui-list-item mdui-ripple">
+     <div class="mdui-list-item-content" onclick="window.open('../pcmanager','_self')"> 微软电脑管家
+     </div> </li> 
+    <li class="mdui-subheader" style="color:white;">其他</li> 
+    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">info</i> 
+     <div class="mdui-list-item-content" onclick="window.open('../../about/','_self')">
+       关于 
+     </div> </li> 
+    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">link</i> 
+     <div class="mdui-list-item-content" onclick="window.open('../../rules/','_self')">
+       群规 
+     </div> </li> 
+    <li class="mdui-subheader" style="color:white;">页面设置</li> 
+    <div> <button class="mdui-btn" id="goTop-show">打开悬浮球</button> <button class="mdui-btn" id="goTop-hide">隐藏悬浮球</button> 
+    </div> <button class="mdui-btn" id="feedback" onclick="window.open('../feedback/','_self')">页面显示错误？</button> 
+   </ul> 
+  </div>
+<div class="basic" id="item3"> 
+   <h1>下载中心</h1> 
+   <div class="mdui-card"> 
+    <div class="mdui-card-header"> 
+     <img class="mdui-card-header-avatar" src="https://home.edgeless.top/favicon.ico"> 
+     <div class="mdui-card-header-title">
+      Edgeless
+     </div> 
+     <div class="mdui-card-header-subtitle">
+      上次更新：2020-01-18
+     </div> 
+    </div> 
+    <div class="mdui-card-media"> 
+     <img src="https://pineapple.edgeless.top/picbed/down/1.jpg"> 
+     <div class="mdui-card-primary"> 
+      <div class="mdui-card-primary-subtitle">
+       核心版本：4.1.0<br>
+       Edgeless Hub 版本：beta 2.27
+       <br>大小：49.29 MB
+       <br>Windows系统
+      </div> 
+     </div> 
+     <div class="mdui-card-content">
+      <p>微PE大家应该都用过，是一款简洁的PE，但是很久没有更新了，所以我向大家推荐Edgeless这款PE，还可以自己加插件哦</p>
 <p>Edgeless是一款国产半开源的PE工具，它不仅提供了一个纯净的Windows PE，同时引入了插件模式，通过工具你可自定义配置，例如软件、壁纸、图标、主题、脚本、驱动、库文件等，均可实现自定义，是打造个性化PE系统的超级工具。<br>
 按照开发者所述，Edgeless的创立旨在试图替代WTG的部分应用场景，即在保留原生Win10系统体验的同时，提供强大、便捷、易用的自定义能力，不断挖掘PE的能力极限，力图帮助用户打造一个可玩性最佳的PE工具。<br>
-Edgeless本质上是一个“完整的”Windows PE，基于Windows 10内核制作，可完美驱动目前主流配置的机器，同时它具备较完整的库文件支持，拥有有线和无线连接能力，，是一个功能完备Windows PE。</p>
-<h3>下载链接</h3>
-<h4>下载即表示您已同意Edgeless使用条款<a href="https://wiki.edgeless.top/v2/global/contract.html">Edgeless使用条款（官网）</a></h4>
-<button class="button"><a href="https://xrsrg-my.sharepoint.com/:u:/g/personal/easycomputer_xrsrg_onmicrosoft_com/EbMgiMx8A6BAukYmhOIokeoB3ZLTMQ0wJ2RYqY0N2KrC4Q?e=IRV2Ou">通过onedrive下载</a></button><br><br><br>
-<button class="button"><a href="https://wwd.lanzoul.com/iND8307q84yf">通过蓝奏云下载（密码easy）</a></button><br><br><br>
-<button class="button"><a href="https://home.edgeless.top/">官网地址</a></button><br><br><br>
-<div class="Pagefoot">
-  <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff >萌ICP备20220539号</a>         
-  <p>Copyright EasyComputer 2022</p>
- </div>
+Edgeless本质上是一个“完整的”Windows PE，基于Windows NT 10制作，可完美驱动目前主流配置的机器，同时它具备较完整的库文件支持，拥有有线和无线连接能力，，是一个功能完备Windows PE。</p>
+      <p><font color="red">这是开源软件！<a href="https://github.com/EdgelessPE/Edgeless">点击打开开源地址</a></font><br>下载即表示您已同意<a href="https://wiki.edgeless.top/v2/global/contract.html">Edgeless使用条款（官网）</a></p>
+     </div> 
+     <div class="mdui-card-actions">
+      <button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme" onclick="window.open('https://home.edgeless.top/','_open')">官网链接</button>
+      <button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-green" onclick="window.open('https://wwd.lanzoul.com/iND8307q84yf','_open')">通过蓝奏云下载（密码easy）</button><br> <br>
+       <button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-yellow" onclick="window.open('https://xrsrg-my.sharepoint.com/:u:/g/personal/easycomputer_xrsrg_onmicrosoft_com/EbMgiMx8A6BAukYmhOIokeoB3ZLTMQ0wJ2RYqY0N2KrC4Q?e=IRV2Ou','_open')">通过onedrive下载</button><br>
+      <button class="mdui-btn mdui-btn-icon mdui-float-right"> <i class="mdui-icon material-icons">share</i> </button>
+     </div> 
+    </div> 
+   </div> 
+   <div class="Pagefoot mdui-color-theme" id="item5"> <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff>萌ICP备20220539号</a> 
+    <p>Copyright EasyComputer 2022</p> 
+   </div> 
+   <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> 
+
 </body>
 </html>
