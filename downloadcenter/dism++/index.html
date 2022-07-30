@@ -1,30 +1,93 @@
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-<title>下载DISM</title>
-<link rel="stylesheet" type="text/css" href="../../css/web.css">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" /> 
-</head>
-<html>
-<body>
-<ul>
-  <li><a href="../../">首页</a></li>
-  <li><a href="../../blog/">博客</a></li>
-  <li><a class="active" href="../../downloadcenter/">下载中心</a></li>
-  <li><a href="../../about">关于</a></li>
-</ul>
-<h1>下载中心</h1>
-<h2>DISM++</h2>
-<p>我个人认为是一款很好的清理电脑空间的软件，网络上口碑也不错</p>
-<p>Dism++可以说是一个Dism的GUI版，与其他Dism GUI不同的是，Dism++是API级别与微软自家Dism共同核心，因此不依赖Dism.exe；得益于API级别，Dism++还可以让微软刻意隐藏的功能重见天日，比如ESD捕获，ESD转WIM等功能。</p>
-<h3>下载链接</h3>
-<button class="button"><a href="https://xrsrg-my.sharepoint.com/:u:/g/personal/easycomputer_xrsrg_onmicrosoft_com/EXE9qVzP0bxNtttXaxR6vv8BlL-j4kEjJGGNIu1iK1aE2Q?e=Xts7pD">通过onedrive下载</a></button><br><br><br>
-<button class="button"><a href="https://wwd.lanzoul.com/iVRyk07ndclc">通过蓝奏云下载</a></button><br><br><br>
-原官网已经停止运营</p>
-<div class="Pagefoot">
-  <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff >萌ICP备20220539号</a>         
-  <p>Copyright EasyComputer 2022</p>
- </div>
-</body>
+<!doctype html>
+<html lang="zh"> 
+ <head> 
+  <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"> 
+  <title>下载DISM</title> 
+  <link rel="stylesheet" type="text/css" href="../../css/web.css"> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes"> 
+ </head> 
+ <body class="mdui-appbar-with-toolbar mdui-theme-primary-indigo"> 
+  <div class="mdui-appbar mdui-appbar-fixed"> 
+   <div class="mdui-toolbar mdui-color-theme"> <a href="javascript:;" class="mdui-btn mdui-btn-icon"> <i class="mdui-icon material-icons" mdui-drawer="{target: '#left-drawer'}">menu</i> </a> <span class="mdui-typo-title">EasyComputer的博客</span> 
+    <div class="mdui-toolbar-spacer"></div> <a href="javascript:;" class="mdui-btn mdui-btn-icon"> <i class="mdui-icon material-icons">search</i> </a> 
+   </div> 
+  </div> 
+  <div class="mdui-drawer mdui-color-theme" id="left-drawer"> 
+   <ul class="mdui-list mdui-list-dense">  
+    <li class="mdui-subheader" style="color:white;">主要</li> 
+    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">home</i> 
+     <div class="mdui-list-item-content" onclick="window.open('https://easycomputer1.github.io/','_self')">
+       主页 
+     </div> </li> 
+    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">dehaze</i> 
+     <div class="mdui-list-item-content" onclick="window.open('../../blog/','_self')">
+       博客 
+     </div> </li> 
+    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">file_download</i> 
+     <div class="mdui-list-item-content" onclick="window.open('../','_self')"> <b>下载中心</b> 
+     </div> </li> 
+     <li class="mdui-subheader" style="color:white;">下载中心</li> 
+       <li class="mdui-list-item mdui-ripple">
+     <div class="mdui-list-item-content" onclick="window.open('../dism++','_self')"> <b>Dism++</b> 
+     </div> </li> 
+     <li class="mdui-list-item mdui-ripple">
+     <div class="mdui-list-item-content" onclick="window.open('../edgeless','_self')"> edgeless 
+     </div> </li> 
+      <li class="mdui-list-item mdui-ripple">
+     <div class="mdui-list-item-content" onclick="window.open('../pcmanager','_self')"> 微软电脑管家
+     </div> </li> 
+    <li class="mdui-subheader" style="color:white;">其他</li> 
+    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">info</i> 
+     <div class="mdui-list-item-content" onclick="window.open('../../about/','_self')">
+       关于 
+     </div> </li> 
+    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">link</i> 
+     <div class="mdui-list-item-content" onclick="window.open('../../rules/','_self')">
+       群规 
+     </div> </li> 
+    <li class="mdui-subheader" style="color:white;">页面设置</li> 
+    <div> <button class="mdui-btn" id="goTop-show">打开悬浮球</button> <button class="mdui-btn" id="goTop-hide">隐藏悬浮球</button> 
+    </div> <button class="mdui-btn" id="feedback" onclick="window.open('../feedback/','_self')">页面显示错误？</button> 
+   </ul> 
+  </div> 
+  <div id="item2"></div> 
+  <div id="item4"></div> 
+  <div class="basic" id="item3"> 
+   <h1>下载中心</h1> 
+   <div class="mdui-card"> 
+    <div class="mdui-card-header"> 
+     <img class="mdui-card-header-avatar" src="https://img.3dmgame.com/uploads/images/thumbnews/20211125/1637807726_239143.png"> 
+     <div class="mdui-card-header-title">
+      Dism++
+     </div> 
+     <div class="mdui-card-header-subtitle">
+      上次更新：2020-01-18
+     </div> 
+    </div> 
+    <div class="mdui-card-media"> 
+     <img style="width: 100%;height: 100%;" src="https://ts1.cn.mm.bing.net/th/id/R-C.1187e9e6c5d8757870a43d8add3413f9?rik=jgmGJbBLcU7yjQ&amp;riu=http%3a%2f%2fwww.8fe.com%2fuploadfile%2f2020%2f0917%2f20200917015022341.png&amp;ehk=Rx6sTMl5YQOpeMo3S1VZwUefSbL5d3HpSeXc%2bl0QE8k%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0"> 
+     <div class="mdui-card-primary"> 
+      <div class="mdui-card-primary-subtitle">
+       版本：10.1.1001.10
+       <br>大小：3.51MB
+       <br>Windows系统
+      </div> 
+     </div> 
+     <div class="mdui-card-content">
+      <p>我个人认为是一款很好的拓展dism的软件，可以实现装系统，更改镜像，清理垃圾，更改Host等操作</p> 
+      <p>Dism++可以是一个Dism的GUI版，与其他Dism GUI不同的是，Dism++是API级别与微软自家Dism共同核心，因此不依赖Dism.exe；得益于API级别，Dism++还可以让微软刻意隐藏的功能重见天日，比如ESD捕获，ESD转WIM等功能。</p> 
+      <p><font color="red">这是开源软件！<a href="https://github.com/Chuyu-Team/Dism-Multi-language/">点击打开开源地址</a></font></p>
+     </div> 
+     <div class="mdui-card-actions">
+      <button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme" onclick="window.open('https://xrsrg-my.sharepoint.com/:u:/g/personal/easycomputer_xrsrg_onmicrosoft_com/EXE9qVzP0bxNtttXaxR6vv8BlL-j4kEjJGGNIu1iK1aE2Q?e=Xts7pD','_open')">通过onedrive下载</button><button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-green" onclick="window.open('https://wwd.lanzoul.com/iVRyk07ndclc','_open')">通过蓝奏云下载</button><button class="mdui-btn mdui-btn-icon mdui-float-right"> <i class="mdui-icon material-icons">share</i> </button>
+     </div> 
+    </div> 
+   </div> 
+   <div class="Pagefoot mdui-color-theme" id="item5"> <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff>萌ICP备20220539号</a> 
+    <p>Copyright EasyComputer 2022</p> 
+   </div> 
+   <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> 
+  </div>
+ </body>
 </html>
