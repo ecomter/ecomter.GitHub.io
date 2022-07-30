@@ -29,10 +29,6 @@ p {
 .grid-container > div {
   background-color: white;
 }
-img {
-     width: 150px;
-     height: 150px;
-}
 div.basic{
     background-color: rgba(255,255,255,0.5);
     backdrop-filter: blur(30px);
