@@ -1,31 +1,70 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
+  <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"> 
 <title>EasyComputer的博客-关于</title>
 <link rel="stylesheet" type="text/css" href="../css/web.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" /> 
 </head>
 <html>
-<body>
-<ul>
-  <li><a href="../">首页</a></li>
-  <li><a href="../blog/">博客</a></li>
-  <li><a href="../downloadcenter/">下载中心</a></li>
-  <li><a class="active" href="../about">关于</a></li>
-</ul>
-<h2>网站FLAG</h2>
+<body class="mdui-theme-primary-indigo mdui-appbar-with-toolbar">
+  <div class="mdui-appbar mdui-appbar-fixed">
+    <div class="mdui-toolbar mdui-color-theme">
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+      
+        <i class="mdui-icon material-icons" mdui-drawer="{target: '#left-drawer'}">menu</i>
+      </a>
+      <span class="mdui-typo-title">EasyComputer的博客</span>
+      <div class="mdui-toolbar-spacer"></div>
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+        <i class="mdui-icon material-icons">search</i>
+      </a>
+    </div>
+    </div>
+      
+    <div class="mdui-drawer mdui-color-theme" id="left-drawer">
+        <ul class="mdui-list">
+    <li class="mdui-subheader"style="color:white;" >主要</li>
+      <li class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
+        <div class="mdui-list-item-content" onclick="window.open('../','_self')">主页</div>
+      </li>
+      <li class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons">dehaze</i>
+        <div class="mdui-list-item-content" onclick="window.open('../blog/','_self')">博客</div>
+      </li>
+      <li class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons">file_download</i>
+        <div class="mdui-list-item-content" onclick="window.open('../downloadcenter/','_self')">下载中心</div>
+      </li>
+    <li class="mdui-subheader" style="color:white;">其他</li>
+      <li class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons">info</i>
+        <div class="mdui-list-item-content" onclick="window.open('../about/','_self')"><b>关于</b></div>
+      </li>
+    <li class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons">link</i>
+        <div class="mdui-list-item-content" onclick="window.open('../rules/','_self')">群规</div>
+      </li>
+      <li class="mdui-subheader" style="color:white;">页面设置</li> <div><button class="mdui-btn" id="feedback" onclick="window.open('../feedback/','_self')">页面显示错误？</button>
+    </ul>
+</div>
+
+<h2>FLAG</h2>
 <p>本博客计划写入一些有关电脑的文章</br>
-  目前已经在筹划Windows进化史，也会发布一些电脑技术类的文章(还会有一些奇奇怪怪的东西）</br>  
-  网站初步建立，所以页面会有点不美观，不过近期我的重点会在网站内容上，但是UI问题也会一点一点解决的呐</br>
+  网站初步建立，如果有显示不适配问题，请发件至t1472580369@outlook.com</br>
   受个人能力所限，目前只能托管至GitHub，将来一定会改成顶级域名</br>
-  除此之外，本博客还提供一些手机&电脑好用的软件下载，单击“下载中心"以查看更多内容！
+  博客：目前已经在筹划Windows进化史，也会发布一些电脑技术类的文章(还会有一些奇奇怪怪的东西）</br>  
+  下载中心：本博客还提供一些手机&电脑好用的软件下载，单击“下载中心"以查看更多内容！里面的软件亲测无毒。部分软件因版权原因，会重定向到官网</br>
+  群规：指我个人QQ群聊的链接，大家也可以加群看看啊。群号在群规的顶部</br>
+  实验室：仅在主页有超链接，里面会有一些测试的小部件，测试成熟后我会放到网站主要部分，作为小部件</br>
+  悬浮球：在内容比较多的页面会启用，如果不能启用，说明页面未适配</br>
 </p>
 <h2>个人资料</h2>
-<p>电脑爱好者呐</br>刚刚入手前端建设，但是软件开发已经研究了一段时间了，目前也在用.NET在写一个工具集软件
-</p>
 <img src="../pic/early.jpg"alt="EasyComputerLogo">
-<p>虽然在生活中有点社恐，但是在网络上就相反了</br>做过十六项测试，是INFP-T型，也不算罕见吧</p>
+<p>电脑爱好者呐</p>
+<p>有点社恐，INFP-T型人格</p>
 <p>个人邮箱：t1472580369@outlook.com</p>
 <div class="Pagefoot">
   <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff >萌ICP备20220539号</a>         
