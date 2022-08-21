@@ -1,9 +1,13 @@
+@font-face{
+  font-family: sans-serif;
+  src: url('./css/ProductSans-Regular.ttf');
+}
 body {
-  font-family: 'Noto Sans', sans-serif;
-  font-family: Microsoft YaHei UI;
   background-color: white;
   background-attachment: fixed;
-}
+  font-family: sans-serif;
+ }
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -26,9 +30,7 @@ p {
   grid-gap: 10px;
 }
 
-.grid-container > div {
-  background-color: white;
-}
+
 div.basic{
     background-color: rgba(255,255,255,0.5);
     backdrop-filter: blur(30px);
