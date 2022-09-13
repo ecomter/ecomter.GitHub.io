@@ -1,79 +1,33 @@
 <!doctype html>
 <html lang="zh"> 
  <head> 
+  <meta name="viewport" content="initial-scale=1, width=device-width"> 
   <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"> 
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6393990555447663" crossorigin="anonymous"></script> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"> 
-  <meta name="google-site-verification" content="PLQYSN6O_IZQV3Awy9eQu9DWiY_V0MdC3cbJncL8Jwg"> 
-  <meta name="description" content="Easy Computer的个人博客。博客包含Windows进化史及电脑常用软件下载。世界这么大，与你相遇是缘分"> 
+  <meta name="description" content="欢迎来到easycomputer的个人博客。这里会记录我的一些心得，分享知识"> 
   <title>Easy Computer 的博客</title> 
   <meta charset="UTF-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes"> 
-  <link href="http://fonts.font.im/css?family=Noto+Sans:400,700&amp;subset=latin,greek" rel="stylesheet" type="text/css"> 
   <link rel="stylesheet" type="text/css" href="css/web.css"> 
- <style>
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  grid-gap: 10px;
-}
-
-.grid-container > div {
-  background-color: white;
-}
-</style>
-</head> 
- <body class="mdui-appbar-with-toolbar mdui-theme-primary-indigo">  
-  <div class="grid-container">
-<div class="mdui-appbar mdui-appbar-fixed"> 
-   <div class="mdui-toolbar mdui-color-theme"> <a href="javascript:;" class="mdui-btn mdui-btn-icon"> <i class="mdui-icon material-icons" mdui-drawer="{target: '#left-drawer'}">menu</i> </a> <span class="mdui-typo-title">EasyComputer的博客</span> 
-    <div class="mdui-toolbar-spacer"> 
-    </div> <a href="javascript:;" class="mdui-btn mdui-btn-icon"> <i class="mdui-icon material-icons" onclick="javascript:location.reload();">refresh</i> </a> 
+ </head> 
+ <body class="mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-layout-auto"> 
+  <div class="grid-container"> 
+   <div class="mdui-appbar mdui-appbar-fixed"> 
+    <div class="mdui-toolbar mdui-color-theme"> <span class="mdui-typo-title">EasyComputer的博客</span> 
+     <div class="mdui-toolbar-spacer"> 
+     </div> <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-menu="{target: '#warn'}"> <i class="mdui-icon material-icons">settings</i> </a> 
+     <ul class="mdui-menu" id="warn"> 
+      <li class="mdui-menu-item"> <a href="javascript:;" class="mdui-ripple" onclick="javascript:location.reload();"><i class="mdui-menu-item-icon mdui-icon material-icons">refresh</i>刷新页面</a> </li> 
+      <li class="mdui-menu-item"> <a href="javascript:window.open('./about/','_self');"><i class="mdui-menu-item-icon mdui-icon material-icons">info</i>关于博客</a> </li> 
+      <li class="mdui-menu-item"> <a href="javascript:window.open('./feedback','_self');" class="mdui-ripple"><i class="mdui-menu-item-icon mdui-icon material-icons">feedback</i>报告问题</a> </li> 
+      <li class="mdui-divider"></li> 
+      <li class="mdui-menu-item"> <a href="javascript:window.open('./lab/','_self');" class="mdui-ripple"><i class="mdui-menu-item-icon mdui-icon material-icons">apps</i>实验功能</a> </li> 
+      <li class="mdui-menu-item"> <a href="javascript:window.open('./rules/','_self');" class="mdui-ripple"><i class="mdui-menu-item-icon mdui-icon material-icons">question_answer</i>QQ群聊</a> </li> 
+     <li class="mdui-menu-item"> <a href="javascript:window.open('./downloadcenter/','_self');" class="mdui-ripple"><i class="mdui-menu-item-icon mdui-icon material-icons">file_download</i>下载中心</a> </li> 
+     </ul> 
+    </div> 
    </div> 
-  </div> 
-  <div class="mdui-drawer mdui-color-theme mdui-list-dense" id="left-drawer"> 
-   <ul class="mdui-list"> 
-    <li class="mdui-subheader" style="color:white;">主要</li> 
-    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">home</i> 
-     <div class="mdui-list-item-content"><b>主页</b>
-     </div> </li> 
-    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">dehaze</i> 
-     <div class="mdui-list-item-content" onclick="window.open('blog/','_self')">
-      博客
-     </div> </li> 
-    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">file_download</i> 
-     <div class="mdui-list-item-content" onclick="window.open('downloadcenter/','_self')">
-      下载中心
-     </div> </li> 
-    <li class="mdui-subheader" style="color:white;">其他</li> 
-    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">info</i> 
-     <div class="mdui-list-item-content" onclick="window.open('about/','_self')">
-      关于
-     </div> </li> 
-    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">link</i> 
-     <div class="mdui-list-item-content" onclick="window.open('rules/','_self')">
-      群规
-     </div> </li> 
-    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">developer_board</i> 
-      <div class="mdui-list-item-content" onclick="window.open('lab/','_self')">实验室
-      </div> </li> 
-    <li class="mdui-subheader" style="color:white;">页面设置</li> <div><button class="mdui-btn" id="goTop-show">打开悬浮球</button> <button class="mdui-btn" id="goTop-hide">隐藏悬浮球</button></div> <button class="mdui-btn" id="feedback" onclick="window.open('feedback/','_self')">页面显示错误？</button>
-   </ul> 
-  </div> 
-
- 
-<div class="item3">
-  <div class="basic mdui-color-theme mdui-ripple mdui-shadow-20"> 
-   <p style="font-size:34px;text-align: center;"><br> <br><script language="JavaScript">
+   <div class="mdui-p-a-2"> 
+    <div class="mdui-color-brown mdui-ripple mdui-shadow-20" id="daysen"> 
+     <p style="font-size:30px;text-align: center;"><br> <br><script language="JavaScript">
 <!-- Hide
 var rand1 = Math.floor(Math.random()*24+1);
 quotes = new Array
@@ -108,87 +62,63 @@ var quote = quotes[rand1]
 <!-- Hide
 document.write(quote)
 // -->
-</script><br> <br><footer style="text-align:center;"> 欢迎来到 EasyComputer 的博客！</footer></p>
-  </div> <div class="mdui-typo">
-  <h2> <blockquote>最近更新</blockquote> </h2> </div>
-  <div class="mdui-typo"><h3><blockquote>推荐博客</blockquote></h3> </div>
-  <div class="mdui-card"> 
-   <div class="mdui-card-media"> 
-    <img style="width: 100%;height: 100%;" src="pic/Windows.jpeg"> 
-    <div class="mdui-card-media-covered mdui-card-media-covered-transparent"> 
-     <div class="mdui-card-primary"> 
-      <div class="mdui-card-primary-title">
+</script><br> <br></p> 
+     <footer style="text-align:center;">
+       欢迎来到 EasyComputer 的博客！ 
+     </footer> 
+     <p></p> 
+    </div> 
+    <p></p> 
+    <div class="mdui-card mdui-ripple" onclick="window.open('blog/History1-2.html','_self')"> 
+     <div class="mdui-card-header"> 
+      <img class="mdui-card-header-avatar" src="https://tse2-mm.cn.bing.net/th/id/OIP-C.jvAqOuYMNXhNv2s3Y2xylQHaHa?w=166&amp;h=166&amp;c=7&amp;r=0&amp;o=5&amp;dpr=2&amp;pid=1.7"> 
+      <div class="mdui-card-header-title">
         Windows进化史 
       </div> 
-      <div class="mdui-card-primary-subtitle">
-        Windows的演化历程（持续更新） 
+      <div class="mdui-card-header-subtitle"> 
+       <div class="mdui-color-indigo" style="Width:80px;display:inline;">
+         &nbsp;2022.7.31&nbsp; 
+       </div> &nbsp; 
+       <div class="mdui-color-brown" style="Width:70px;display:inline;">
+         &nbsp;科普文章&nbsp; 
+       </div> &nbsp; 
+       <div class="mdui-color-black" style="Width:70px;display:inline;">
+         &nbsp;10分钟&nbsp; 
+       </div> 
       </div> 
+     </div> 
+     <div class="mdui-card-content"> 
+      <h2>MS-DOS时代</h2> Windows进化史的第二篇章：MS-DOS（微软磁盘操作系统）。它是美国微软公司提供的磁盘操作系统。 现在Windows系统中的cmd（command）的大部分语法就来自于MSDOS。 
      </div> 
     </div> 
-   </div> 
-   <div class="mdui-card-actions mdui-card-actions-stacked"> <button class="mdui-btn mdui-ripple mdui-color-theme"><a href="blog/History1-1.html">1.早期初步历程</a></button> <button class="mdui-btn mdui-ripple mdui-color-theme"><a href="blog/History1-2.html">2.MS-DOS时代</a></button> 
-   </div> 
-  </div> <div class="mdui-typo">
-  <h3><blockquote>推荐软件</blockquote></h3> </div>
-  <div class="mdui-card mdui-shadow-15"> 
-   <div class="mdui-card-media"> 
-    <img style="width: 100%;height: 100%;" src="pic/pcmanager.png"> 
-    <div class="mdui-card-media-covered"> 
-     <div class="mdui-card-primary"> 
-      <div class="mdui-card-primary-title">
-        微软电脑管家 
+    <p></p> 
+    <div class="mdui-card mdui-ripple" onclick="window.open('blog/History1-1.html','_self')"> 
+     <div class="mdui-card-header"> 
+      <img class="mdui-card-header-avatar" src="https://tse2-mm.cn.bing.net/th/id/OIP-C.jvAqOuYMNXhNv2s3Y2xylQHaHa?w=166&amp;h=166&amp;c=7&amp;r=0&amp;o=5&amp;dpr=2&amp;pid=1.7"> 
+      <div class="mdui-card-header-title">
+        Windows进化史 
       </div> 
-      <div class="mdui-card-primary-subtitle">
-        官方出品，纯净无打扰 
-      </div> 
-     </div> 
-     <div class="mdui-card-actions"> <button class="mdui-btn mdui-ripple mdui-color-theme mdui-ripple-white"><a href="https://pcmanager.microsoft.com">官网链接</a></button> 
-     </div> 
-    </div> 
-   </div> 
-  </div> 
-  <br> 
-  <br> 
-  <div class="mdui-card mdui-shadow-15"> 
-   <div class="mdui-card-media"> 
-    <img style="width: 100%;height: 100%;" src="pic/spotify.jpg"> 
-    <div class="mdui-card-media-covered"> 
-     <div class="mdui-card-primary"> 
-      <div class="mdui-card-primary-title">
-        Spotify音乐 
-      </div> 
-      <div class="mdui-card-primary-subtitle">
-        好用的音乐软件 
+      <div class="mdui-card-header-subtitle"> 
+       <div class="mdui-color-indigo" style="Width:80px;display:inline;">
+         &nbsp;2022.7.30&nbsp; 
+       </div> &nbsp; 
+       <div class="mdui-color-brown" style="Width:70px;display:inline;">
+         &nbsp;科普文章&nbsp; 
+       </div> &nbsp; 
+       <div class="mdui-color-black" style="Width:70px;display:inline;">
+         &nbsp;4分钟&nbsp; 
+       </div> 
       </div> 
      </div> 
-     <div class="mdui-card-actions"> <button class="mdui-btn mdui-ripple mdui-color-theme mdui-ripple-white"><a href="https://www.spotify.com/">官网链接</a></button> 
+     <div class="mdui-card-content"> 
+      <h2>早期计算机时代</h2> 计算机的诞生大大方便了人们的生活，这里讲述了早期计算机的一些历史。现在的笔记本电脑小巧玲珑，以前计算机可是个庞然大物。 
      </div> 
     </div> 
    </div> 
   </div> 
-  <br> 
-  <br> 
-  <br>
-<div class="item4 mdui-hidden-md-down"> </div>
-  <div class="Pagefoot mdui-color-theme item5"> <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff>萌ICP备20220539号</a> 
+  <div class="Pagefoot mdui-color-brown"> <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff>萌ICP备20220539号</a> 
    <p>Copyright EasyComputer 2022</p> 
-  </div> <button class="mdui-fab mdui-color-theme mdui-ripple mdui-fab-fixed" id="goTop"> <i class="mdui-icon material-icons">arrow_upward</i> </button> 
-  </div>
-<script>
-  goTop.onclick = function () {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;}
-  
-  var fab = document.getElementById('goTop');
-  document.getElementById('goTop-show').addEventListener('click', function () {
-    fab.classList.remove('mdui-fab-hide');
-  });
-  document.getElementById('goTop-hide').addEventListener('click', function () {
-    fab.classList.add('mdui-fab-hide');
-  });
-
-  
-</script> 
+  </div> <button class="mdui-fab mdui-ripple mdui-fab-fixed mdui-color-theme" onclick="window.open('./download','_self')"> <i class="mdui-icon material-icons">file_download</i> </button> 
   <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> 
  </body>
 </html>
