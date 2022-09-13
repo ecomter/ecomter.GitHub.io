@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'Microsoft YaHei Light';  
-  src: url('https://easycomputer1.github.io/css/MicrosoftYaHeiLight-01.woff') format('woff'); 
+  font-family: 'Google Sans';  
+  src: url('https://easycomputer1.GitHub.io/css/ProductSans-Regular.woff2') format('woff2'); 
  
 }
 body {
   background-color: white;
   background-attachment: fixed;
-  font-family: "Arial",'Microsoft YaHei Light',"黑体","宋体",sans-serif;
+  font-family: "Arial",'Google Sans',"黑体","宋体",sans-serif;
 
  }
 h2 {
