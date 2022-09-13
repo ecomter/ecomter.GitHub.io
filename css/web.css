@@ -1,12 +1,17 @@
-@font-face{
-  font-family: sans-serif;
-  src: url('./css/ProductSans-Regular.ttf');
+@font-face {
+  font-family: 'Microsoft YaHei Light';  
+  src: url('https://easycomputer1.github.io/css/MicrosoftYaHeiLight-01.woff') format('woff'); 
+ 
 }
 body {
   background-color: white;
   background-attachment: fixed;
-  font-family: sans-serif;
+  font-family: "Arial",'Microsoft YaHei Light',"黑体","宋体",sans-serif;
+
  }
+h2 {
+  font-weight:600;
+  }
 
 p {
     display: block;
@@ -15,27 +20,10 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  grid-gap: 10px;
-}
 
 
-div.basic{
-    background-color: rgba(255,255,255,0.5);
-    backdrop-filter: blur(30px);
-    border-radius: 10px;
-}
+
+
 h1 {
     display: block;
     font-size: 2em;
@@ -45,12 +33,7 @@ h1 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-.BlogResult {
-  border-radius: 10px;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  background-color: rgba(255,255,255,0.5);
-}
+
 .Pagefoot {
   background-color: white;
   color: rgb(0, 0, 0);
@@ -68,37 +51,4 @@ p a:link,h4 a:link,p a:visited,div a:visited,h4 a:visited{
 button a:link,button a:visited,.Pagefoot a:link,.Pagefoot a:visited{
   text-decoration: none;
   color:white;
-}
-.button {
-    background-color: #4CAF50;
-    color: white;
-    display: inline-block;
-    border: none;
-    text-align: center;
-    -webkit-transition-duration: 0.4s;
-    font-size:16px;
-    padding: 15px 32px;
-    float: left;
-    text-decoration: none;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    border-radius: 5px;
-}
-.button.after{
-    content:" ";
-    display:block;
-    position:absolute;
-    padding-top:300%;
-    padding-left:350%;
-    margin-left:-20px!important;
-    margin-top:-120%;
-    opacity:0;
-    transition:all 0.8s;
-}
-.button:active:after {
-    padding:0;
-    margin:0;
-    opacity:1;
-    transition:0s;
 }
