@@ -1,103 +1,61 @@
 <!doctype html>
 <html lang="zh"> 
  <head> 
+  <meta name="viewport" content="initial-scale=1, width=device-width"> 
   <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"> 
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6393990555447663" crossorigin="anonymous"></script> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"> 
-  <meta name="google-site-verification" content="PLQYSN6O_IZQV3Awy9eQu9DWiY_V0MdC3cbJncL8Jwg"> 
   <meta name="description" content="Easy Computer的个人博客。博客包含Windows进化史及电脑常用软件下载。世界这么大，与你相遇是缘分"> 
   <title>下载中心</title> 
   <meta charset="UTF-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes"> 
-  <link href="http://fonts.font.im/css?family=Noto+Sans:400,700&amp;subset=latin,greek" rel="stylesheet" type="text/css"> 
   <link rel="stylesheet" type="text/css" href="../css/web.css"> 
  </head> 
- <body class="mdui-appbar-with-toolbar mdui-theme-primary-indigo"> 
+ <body class="mdui-theme-primary-teal mdui-bottom-nav-fixed mdui-appbar-with-toolbar"> 
   <div class="mdui-appbar mdui-appbar-fixed"> 
-   <div class="mdui-toolbar mdui-color-theme"> <a href="javascript:;" class="mdui-btn mdui-btn-icon"> <i class="mdui-icon material-icons" mdui-drawer="{target: '#left-drawer'}">menu</i> </a> <span class="mdui-typo-title">EasyComputer的博客</span> 
-    <div class="mdui-toolbar-spacer"></div> <a href="javascript:;" class="mdui-btn mdui-btn-icon"> <i class="mdui-icon material-icons">search</i> </a> 
+   <div class="mdui-toolbar mdui-color-theme"> <span class="mdui-typo-title">易下载中心</span> 
+    <div class="mdui-toolbar-spacer"></div> <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-menu="{target: '#warn'}"> <i class="mdui-icon material-icons">settings</i> </a> 
+    <ul class="mdui-menu" id="warn"> 
+     <li class="mdui-menu-item"> <a href="javascript:;" class="mdui-ripple" onclick="javascript:location.reload();"><i class="mdui-menu-item-icon mdui-icon material-icons">refresh</i>刷新页面</a> </li> 
+     <li class="mdui-menu-item"> <a href="javascript:window.open('./about/','_self');"><i class="mdui-menu-item-icon mdui-icon material-icons">info</i>关于博客</a> </li> 
+     <li class="mdui-menu-item"> <a href="javascript:window.open('./feedback/','_self');" class="mdui-ripple"><i class="mdui-menu-item-icon mdui-icon material-icons">feedback</i>报告问题</a> </li> 
+     <li class="mdui-divider"></li> 
+     <li class="mdui-menu-item"> <a href="javascript:window.open('./lab/','_self');" class="mdui-ripple"><i class="mdui-menu-item-icon mdui-icon material-icons">apps</i>实验功能</a> </li> 
+     <li class="mdui-menu-item"> <a href="javascript:window.open('./rules/','_self');" class="mdui-ripple"><i class="mdui-menu-item-icon mdui-icon material-icons">question_answer</i>QQ群聊</a> </li> 
+    </ul> 
    </div> 
   </div> 
-  <div class="mdui-drawer mdui-color-theme" id="left-drawer"> 
-   <ul class="mdui-list mdui-list-dense"> 
-    <li class="mdui-subheader" style="color:white;">主要</li> 
-    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">home</i> 
-     <div class="mdui-list-item-content" onclick="window.open('https://easycomputer1.github.io/','_self')">
-       主页 
-     </div> </li> 
-    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">dehaze</i> 
-     <div class="mdui-list-item-content" onclick="window.open('../blog/','_self')">
-       博客 
-     </div> </li> 
-    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">file_download</i> 
-     <div class="mdui-list-item-content" onclick="window.open('../downloadcenter/','_self')"> <b>下载中心</b> 
-     </div> </li> 
-    <li class="mdui-subheader" style="color:white;">下载中心</li> 
-    <li class="mdui-list-item mdui-ripple"> 
-     <div class="mdui-list-item-content" onclick="window.open('dism++','_self')">
-      Dism++ 
-     </div> </li> 
-    <li class="mdui-list-item mdui-ripple"> 
-     <div class="mdui-list-item-content" onclick="window.open('edgeless','_self')">
-      edgeless 
-     </div> </li> 
-    <li class="mdui-list-item mdui-ripple"> 
-     <div class="mdui-list-item-content" onclick="window.open('pcmanager','_self')">
-       微软电脑管家 
-     </div> </li> 
-    <li class="mdui-subheader" style="color:white;">其他</li> 
-    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">info</i> 
-     <div class="mdui-list-item-content" onclick="window.open('../about/','_self')">
-       关于 
-     </div> </li> 
-    <li class="mdui-list-item mdui-ripple"> <i class="mdui-list-item-icon mdui-icon material-icons">link</i> 
-     <div class="mdui-list-item-content" onclick="window.open('../rules/','_self')">
-       群规 
-     </div> </li> 
-    <li class="mdui-subheader" style="color:white;">页面设置</li> <button class="mdui-btn" id="feedback" onclick="window.open('../feedback/','_self')">页面显示错误？</button> 
-   </ul> 
+  <div class="mdui-p-a-2"> 
+   <div class="mdui-card"> 
+    <div class="mdui-card-header"> 
+     <img class="mdui-card-header-avatar mdui-img-rounded" src="https://home.edgeless.top/favicon.ico"> 
+     <div class="mdui-card-header-title">
+       Edgeless 
+     </div> 
+     <div class="mdui-card-header-subtitle">
+       强大且高自定义度的PE 
+     </div> 
+    </div> 
+    <div class="mdui-card-actions"> <button style="width:100%;" class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme">详细信息</button> 
+    </div> 
+   </div> 
+   <div class="mdui-card"> 
+    <div class="mdui-card-header"> 
+     <img class="mdui-card-header-avatar mdui-img-rounded" src="https://logospng.org/download/windows-11/logo-windows-11-icon-1024.png"> 
+     <div class="mdui-card-header-title">
+       Windows 11 22H2 
+     </div> 
+     <div class="mdui-card-header-subtitle">
+       微软官方Windows 11 原版镜像 
+     </div> 
+    </div> 
+    <div class="mdui-card-actions"> <button style="width:100%;" class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme">详细信息</button> 
+    </div> 
+   </div> 
   </div> 
-  
-  <div class="mdui-card">
-  <div class="mdui-card-media">
-    <img src="https://ts1.cn.mm.bing.net/th/id/R-C.1187e9e6c5d8757870a43d8add3413f9?rik=jgmGJbBLcU7yjQ&riu=http%3a%2f%2fwww.8fe.com%2fuploadfile%2f2020%2f0917%2f20200917015022341.png&ehk=Rx6sTMl5YQOpeMo3S1VZwUefSbL5d3HpSeXc%2bl0QE8k%3d&risl=&pid=ImgRaw&r=0"/>
-      <div class="mdui-card-primary">
-        <div class="mdui-card-primary-title">dism++</div>
-        <div class="mdui-card-primary-subtitle">dism的拓展</div>
-      </div>
-  </div>
-  <div class="mdui-card-actions">
-    <button class="mdui-btn mdui-ripple mdui-color-theme" onclick="window.open('dism++','_self')">查看更多</button>
-  </div>
-</div><br> <br> 
-  <div class="mdui-card">
-  <div class="mdui-card-media">
-    <img src="https://pineapple.edgeless.top/picbed/down/1.jpg"/>
-      <div class="mdui-card-primary">
-        <div class="mdui-card-primary-title">edgeless</div>
-        <div class="mdui-card-primary-subtitle">高自定义的WinToGo</div>
-      </div>
-  </div>
-  <div class="mdui-card-actions">
-    <button class="mdui-btn mdui-ripple mdui-color-theme" onclick="window.open('edgeless','_self')">查看更多</button>
-  </div>
-</div><br> <br> 
-  <div class="mdui-card">
-  <div class="mdui-card-media">
-    <img src="../pic/pcmanager.png"/>
-      <div class="mdui-card-primary">
-        <div class="mdui-card-primary-title">微软电脑管家</div>
-        <div class="mdui-card-primary-subtitle">微软官方出品纯净电脑管家</div>
-      </div>
-  </div>
-  <div class="mdui-card-actions">
-    <button class="mdui-btn mdui-ripple mdui-color-theme" onclick="window.open('pcmanager/','_self')">查看更多</button>
-  </div>
-</div><br> <br> 
-  
-  <div class="Pagefoot mdui-color-theme"> <a href="https://github.com/easycomputer1/easycomputer1.GitHub.io/discussions/1">GitHub反馈</a> 
-   <p><a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff>萌ICP备20220539号</a></p> 
+  <div class="Pagefoot mdui-color-brown"> <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff>萌ICP备20220539号</a> 
    <p>Copyright EasyComputer 2022</p> 
+  </div> 
+  <div class="mdui-bottom-nav mdui-color-white"> <a href="javascript:window.open('./downloadcenter/','_self');" class="mdui-ripple mdui-bottom-nav-active"> <i class="mdui-icon material-icons">home</i> <label>综合</label> </a> <a href="javascript:mdui.snackbar({
+  message: '搜索功能不可用'
+});" class="mdui-ripple"> <i class="mdui-icon material-icons">search</i> <label>搜索</label> </a> <a href="javascript:window.open('./downloadcenter/types/','_self');" class="mdui-ripple"> <i class="mdui-icon material-icons">apps</i> <label>分类</label> </a> 
   </div> 
   <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> 
  </body>
