@@ -1,76 +1,81 @@
-<!DOCTYPE html>
-<html lang="zh">
-<head>
+<!doctype html>
+<html lang="zh"> 
+ <head> 
   <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"> 
-<title>EasyComputer的博客-关于</title>
-<link rel="stylesheet" type="text/css" href="../css/web.css">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" /> 
-</head>
-<html>
-<body class="mdui-theme-primary-indigo mdui-appbar-with-toolbar">
-  <div class="mdui-appbar mdui-appbar-fixed">
-    <div class="mdui-toolbar mdui-color-theme">
-      <a href="javascript:;" class="mdui-btn mdui-btn-icon">
-      
-        <i class="mdui-icon material-icons" mdui-drawer="{target: '#left-drawer'}">menu</i>
-      </a>
-      <span class="mdui-typo-title">EasyComputer的博客</span>
-      <div class="mdui-toolbar-spacer"></div>
-      <a href="javascript:;" class="mdui-btn mdui-btn-icon">
-        <i class="mdui-icon material-icons">search</i>
-      </a>
-    </div>
-    </div>
-      
-    <div class="mdui-drawer mdui-color-theme" id="left-drawer">
-        <ul class="mdui-list">
-    <li class="mdui-subheader"style="color:white;" >主要</li>
-      <li class="mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
-        <div class="mdui-list-item-content" onclick="window.open('../','_self')">主页</div>
-      </li>
-      <li class="mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons">dehaze</i>
-        <div class="mdui-list-item-content" onclick="window.open('../blog/','_self')">博客</div>
-      </li>
-      <li class="mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons">file_download</i>
-        <div class="mdui-list-item-content" onclick="window.open('../downloadcenter/','_self')">下载中心</div>
-      </li>
-    <li class="mdui-subheader" style="color:white;">其他</li>
-      <li class="mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons">info</i>
-        <div class="mdui-list-item-content" onclick="window.open('../about/','_self')"><b>关于</b></div>
-      </li>
-    <li class="mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons">link</i>
-        <div class="mdui-list-item-content" onclick="window.open('../rules/','_self')">群规</div>
-      </li>
-      <li class="mdui-subheader" style="color:white;">页面设置</li> <div><button class="mdui-btn" id="feedback" onclick="window.open('../feedback/','_self')">页面显示错误？</button>
-    </ul>
-</div>
-
-<h2>FLAG</h2>
-<p>本博客计划写入一些有关电脑的文章</br>
-  网站初步建立，如果有显示不适配问题，请发件至t1472580369@outlook.com</br>
-  受个人能力所限，目前只能托管至GitHub，将来一定会改成顶级域名</br>
-  博客：目前已经在筹划Windows进化史，也会发布一些电脑技术类的文章(还会有一些奇奇怪怪的东西）</br>  
-  下载中心：本博客还提供一些手机&电脑好用的软件下载，单击“下载中心"以查看更多内容！里面的软件亲测无毒。部分软件因版权原因，会重定向到官网</br>
-  群规：指我个人QQ群聊的链接，大家也可以加群看看啊。群号在群规的顶部</br>
-  实验室：仅在主页有超链接，里面会有一些测试的小部件，测试成熟后我会放到网站主要部分，作为小部件</br>
-  悬浮球：在内容比较多的页面会启用，如果不能启用，说明页面未适配</br>
-</p>
-<h2>个人资料</h2>
-<img style="width=150px;height:150px;" src="../pic/early.jpg" alt="EasyComputerLogo">
-<p>电脑爱好者呐</p>
-<p>有点社恐，INFP-T型人格</p>
-<p>个人邮箱：t1472580369@outlook.com</p>
-<div class="Pagefoot">
-  <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff >萌ICP备20220539号</a>         
-  <p>Copyright EasyComputer 2022</p>
- </div>
- <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> 
-
-</body>
+  <title>EasyComputer的博客-关于</title> 
+  <link rel="stylesheet" type="text/css" href="../css/web.css"> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="initial-scale=1, width=device-width"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mtu/dist/mtu.min.css"> 
+  <script src="https://cdn.jsdelivr.net/npm/mtu/dist/mtu.min.js"></script> 
+ </head> 
+ <body class="mdui-theme-primary-indigo mdui-appbar-with-toolbar"> 
+  <div class="mdui-appbar mdui-appbar-fixed"> 
+   <div class="mdui-toolbar mdui-color-theme"> <span class="mdui-typo-title">EasyComputer的博客</span> 
+    <div class="mdui-toolbar-spacer"></div> <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-menu="{target: '#warn'}"> <i class="mdui-icon material-icons">settings</i> </a> 
+    <ul class="mdui-menu" id="warn"> 
+     <li class="mdui-menu-item"> <a href="javascript:;" class="mdui-ripple" onclick="javascript:location.reload();"><i class="mdui-menu-item-icon mdui-icon material-icons">refresh</i>刷新页面</a> </li> 
+     <li class="mdui-menu-item"> <a href="javascript:;"><i class="mdui-menu-item-icon mdui-icon material-icons">apps</i>实验功能</a> </li> 
+     <li class="mdui-menu-item"> <a href="javascript:;" class="mdui-ripple"><i class="mdui-menu-item-icon mdui-icon material-icons">feedback</i>报告问题</a> </li> 
+     <li class="mdui-divider"></li> 
+     <li class="mdui-menu-item"> <a href="javascript:;" class="mdui-ripple"><i class="mdui-menu-item-icon mdui-icon material-icons">apps</i>博客页面</a> </li> 
+     <li class="mdui-menu-item"> <a href="javascript:;" class="mdui-ripple"><i class="mdui-menu-item-icon mdui-icon material-icons">file_download</i>下载中心</a> </li> 
+     <li class="mdui-menu-item"> <a href="javascript:;" class="mdui-ripple"><i class="mdui-menu-item-icon mdui-icon material-icons">question_answer</i>QQ群聊</a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div class="mdui-p-a-2"> 
+   <h2>时间线</h2> <m-timeline> 
+    <m-timeline-item> 
+     <div slot="title">
+       2022.9.1 
+     </div> 
+     <m-card>
+       专项管理 
+      <br>博客、下载中心分开管理 
+     </m-card> 
+    </m-timeline-item> 
+    <m-timeline-item> 
+     <div slot="title">
+       2022.7.30 
+     </div> 
+     <m-card>
+       Material Design化 
+      <br>采用传统侧边栏式菜单 
+     </m-card> 
+    </m-timeline-item> 
+    <m-timeline-item> 
+     <div slot="title">
+       2022.7.1 
+     </div> 
+     <m-card>
+       形成雏形 
+      <br>已经建立“博客、下载中心”体系 
+     </m-card> 
+    </m-timeline-item> 
+    <m-timeline-item> 
+     <div slot="title">
+       2022.5.29 
+     </div> 
+     <m-card>
+       博客初步建立 
+      <br>测试阶段 
+     </m-card> 
+    </m-timeline-item> 
+   </m-timeline> 
+   <h2>个人资料</h2> 
+   <img style="mdui-img-circle;width:100%;height:100%;" src="https://easycomputer1.github.io/pic/early.jpg"> 
+   <br> <i class="mdui-icon material-icons">label</i> 
+   <p>Easy Computer</p> <i class="mdui-icon material-icons">people</i> 
+   <p>电脑爱好者</p> 
+   <p>有点社恐，INFP-T型人格</p> <i class="mdui-icon material-icons">email</i> 
+   <p>t1472580369@outlook.com</p> <a href="https://discord.gg/KTJvVcWvJv">discord频道</a> 
+  </div> 
+  <div class="Pagefoot mdui-color-brown"> <a href="https://icp.gov.moe/?keyword=20220539" target="_blank" color:#ffffff>萌ICP备20220539号</a> 
+   <p>Copyright EasyComputer 2022</p> 
+  </div> 
+<div><iframe src="https://web.powerva.microsoft.com/environments/Default-5d419bbc-2a26-4c77-9be3-31bba8f6bfad/bots/new_bot_b41685fa683b412f8be7d666443fe326/webchat" frameborder="0" style="width: 100%; height: 100%;"></iframe>
+  </div>
+<script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> 
+ </body>
 </html>
