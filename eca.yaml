@@ -1,0 +1,9 @@
+proxies:
+
+  - {name: Argo-Vless, type: vless, server: icook.hk, port: 443, uuid: de04add9-5c68-8bab-950c-08cd5320df18, tls: true, servername: explaining-paragraph-cdt-assign.trycloudflare.com, skip-cert-verify: false, network: ws, ws-opts: {path: /argo-vless?ed=2048, headers: { Host: explaining-paragraph-cdt-assign.trycloudflare.com}}, udp: true}
+
+  - {name: Argo-Vmess, type: vmess, server: icook.hk, port: 443, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: none, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /argo-vmess?ed=2048, headers: {Host: explaining-paragraph-cdt-assign.trycloudflare.com}}, udp: true}
+
+  - {name: Argo-Trojan, type: trojan, server: icook.hk, port: 443, password: de04add9-5c68-8bab-950c-08cd5320df18, udp: true, tls: true, sni: explaining-paragraph-cdt-assign.trycloudflare.com, skip-cert-verify: false, network: ws, ws-opts: { path: /argo-trojan?ed=2048, headers: { Host: explaining-paragraph-cdt-assign.trycloudflare.com } } }
+
+  - {name: Argo-Shadowsocks, type: ss, server: icook.hk, port: 443, cipher: chacha20-ietf-poly1305, password: de04add9-5c68-8bab-950c-08cd5320df18, plugin: v2ray-plugin, plugin-opts: { mode: websocket, host: explaining-paragraph-cdt-assign.trycloudflare.com, path: /argo-shadowsocks?ed=2048, tls: true, skip-cert-verify: false, mux: false } }
