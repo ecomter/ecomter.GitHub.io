@@ -73,7 +73,7 @@
              
              </div>
              <p></p>
-             <div class="mdui-card mdui-ripple" onclick="window.open('blog/update925.html','_self')">
+             <div class="mdui-card mdui-ripple" onclick="snackbar()">
                  <div class="mdui-card-header">
                      <img class="mdui-card-header-avatar" src="https://ts1.cn.mm.bing.net/th/id/R-C.1e0b06ed08e7ee058ab26fc49a87b880?rik=WeS%2fY8FxLDlFmQ&riu=http%3a%2f%2fsc.adminbuy.cn%2fuploads%2fallimg%2f200627%2f1-20062G23P20-L.png&ehk=7LsAJtstF47jsIKBpeTgRqov14NN1rRgUOv2gjVTpW4%3d&risl=&pid=ImgRaw&r=0">
                      <div class="mdui-card-header-title">
@@ -154,7 +154,10 @@
              var widthmode = 0.6*(document.body.clientWidth);
              document.getElementById("main").style.width = widthmode;
          }
-
+        function snackbar(){
+          mdui.snackbar({
+  message: '此内容并无独立页面，所见即所得'});
+        }
 
      </script>
  </body>
